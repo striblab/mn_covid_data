@@ -26,7 +26,7 @@ You must also make it clear to anyone who requests access to the data that it is
 
 #### mn_positive_tests_by_county.csv
 
-A snapshot of the latest cumulative data from the Minnesota Department of Health. Positive tests are sourced from https://www.health.state.mn.us/diseases/coronavirus/situation.html. Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting
+A snapshot of the latest cumulative data from the Minnesota Department of Health. Positive tests are sourced from https://www.health.state.mn.us/diseases/coronavirus/situation.html. Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting.
 
 |Column name|Format|Description|
 |---|---|---|
@@ -40,7 +40,7 @@ A snapshot of the latest cumulative data from the Minnesota Department of Health
 
 #### mn_statewide_timeseries.csv
 
-A statewide daily county of positive COVID-19 tests, compiled by daily scraping of the [Minnesota Department of Health's coronavirus situation page](https://www.health.state.mn.us/diseases/coronavirus/situation.html). Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting
+A statewide daily county of positive COVID-19 tests, compiled by daily scraping of the [Minnesota Department of Health's coronavirus situation page](https://www.health.state.mn.us/diseases/coronavirus/situation.html). Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting.
 
 |Column name|Format|Description|
 |---|---|---|
@@ -61,7 +61,7 @@ A "wide" timeseries of each county's cumulative positive COVID-19 tests by the d
 
 #### mn_county_timeseries_tall.csv
 
-A "tall" timeseries of each county's positive tests and deaths by a given date. Compiled by daily scraping of the [Minnesota Department of Health's coronavirus situation page](https://www.health.state.mn.us/diseases/coronavirus/situation.html) Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting
+A "tall" timeseries of each county's positive tests and deaths by a given date. Compiled by daily scraping of the [Minnesota Department of Health's coronavirus situation page](https://www.health.state.mn.us/diseases/coronavirus/situation.html) Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting.
 
 |Column name|Format|Description|
 |---|---|---|
