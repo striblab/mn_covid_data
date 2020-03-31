@@ -9,7 +9,7 @@ Every effort has been made to keep the data accurate and up to date. However, MD
 ### Copyright and license
 The Star Tribune's COVID-19 spreadsheets posted here are open data, licensed under the Open Data Commons Open Database License (ODbL) by the Star Tribune.
 
-You are free to copy, distribute, transmit and adapt the shapefiles, so long as you:
+You are free to copy, distribute, transmit and adapt the spreadsheets, so long as you:
 
 - Credit the Star Tribune as specified below.
 - Inform the Star Tribune that you are using the spreadsheets in your work by emailing Michael Corey at michael.corey@startribune.com.
