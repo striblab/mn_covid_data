@@ -26,7 +26,7 @@ You must also make it clear to anyone who requests access to the data that it is
 
 #### mn_positive_tests_by_county.csv
 
-A snapshot of the latest cumulative data from the Minnesota Department of Health. Positive tests are sourced from https://www.health.state.mn.us/diseases/coronavirus/situation.html. Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting.
+A snapshot of the latest cumulative county-by-county data from the Minnesota Department of Health. Positive tests are sourced from https://www.health.state.mn.us/diseases/coronavirus/situation.html. Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting.
 
 |Column name|Format|Description|
 |---|---|---|
@@ -38,6 +38,24 @@ A snapshot of the latest cumulative data from the Minnesota Department of Health
 |longitude|float|Longitude of county centroid|
 
 
+#### mn_statewide_latest.csv
+
+A snapshot of the latest cumulative statewide data from the Minnesota Department of Health. Test and hospitalization data are sourced from https://www.health.state.mn.us/diseases/coronavirus/situation.html. Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting.
+
+|Column name|Format|Description|
+|---|---|---|
+total_positive_tests|integer|Number of cumulative positive COVID-19 tests statewide|
+total_completed_tests|integer|Number of cumulative COVID-19 tests completed statewide, positive and negative|
+total_completed_mdh|integer|Number of cumulative COVID-19 tests completed statewide by the state's Public Health Lab. (Data begins April 1, 2020)|
+total_completed_private|integer|Number of cumulative COVID-19 tests completed statewide by external labs. (Data begins April 1, 2020)|
+total_hospitalized|integer|Number of cumulative hospitalized people statewide A single person who was hospitalized twice would could as two hospitalizations, according to MDH.|
+currently_hospitalized|integer|Number of people currently hospitalized|
+currently_in_icu|integer|Number of people currently in ICU care|
+total_statewide_deaths|integer|Number of deaths statewide|
+total_statewide_recoveries|integer|Number of "patients who no longer need to be isolated," according to MDH.|
+last_update|datetime|Timestamp when scraper last ran|
+
+
 #### mn_statewide_timeseries.csv
 
 A statewide daily county of positive COVID-19 tests, compiled by daily scraping of the [Minnesota Department of Health's coronavirus situation page](https://www.health.state.mn.us/diseases/coronavirus/situation.html). Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting.
@@ -47,6 +65,12 @@ A statewide daily county of positive COVID-19 tests, compiled by daily scraping 
 |date|date|YYYY-MM-DD|
 |total_positive_tests|integer|Number of cumulative positive COVID-19 tests statewide by this date|
 |new_positive_tests|integer|Number of new positive COVID-19 tests reported statewide on this date|
+|total_hospitalized|integer|Number of cumulative hospitalized people statewide by this date. A single person who was hospitalized twice would could as two hospitalizations, according to MDH.|
+|currently_hospitalized|integer|Number of people currently hospitalized on this date|
+|currently_in_icu|integer|Number of people currently in ICU care on this date|
+|total_statewide_deaths|integer|Number of deaths statewide by this date|
+|new_statewide_deaths|integer|Number of new deaths reported statewide on this date|
+|total_statewide_recoveries|integer|Number of "patients who no longer need to be isolated," according to MDH.|
 
 
 #### mn_county_timeseries.csv
