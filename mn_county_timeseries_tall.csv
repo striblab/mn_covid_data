@@ -531,7 +531,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-04-03,Carlton,2,5,0,0
 2020-04-03,Carver,0,10,0,0
 2020-04-03,Cass,0,1,0,0
-2020-04-03,Chisago,1,4,0,0
+2020-04-03,Chisago,1,4,1,1
 2020-04-03,Clay,0,8,0,0
 2020-04-03,Clearwater,0,2,0,0
 2020-04-03,Cottonwood,0,5,0,0
@@ -543,7 +543,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-04-03,Fillmore,0,9,0,0
 2020-04-03,Freeborn,2,7,0,0
 2020-04-03,Goodhue,1,5,0,0
-2020-04-03,Hennepin,7,242,0,11
+2020-04-03,Hennepin,7,242,1,11
 2020-04-03,Isanti,0,2,0,0
 2020-04-03,Itasca,0,2,0,0
 2020-04-03,Jackson,0,1,0,0
@@ -558,12 +558,12 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-04-03,Meeker,0,1,0,0
 2020-04-03,Mower,0,15,0,0
 2020-04-03,Nicollet,0,3,0,0
-2020-04-03,Olmsted,10,76,0,0
+2020-04-03,Olmsted,10,76,1,1
 2020-04-03,Otter Tail,0,1,0,0
 2020-04-03,Ramsey,4,71,0,2
 2020-04-03,Renville,0,2,0,0
 2020-04-03,Rice,0,3,0,0
-2020-04-03,Scott,1,11,0,0
+2020-04-03,Scott,1,11,1,1
 2020-04-03,Sherburne,0,8,0,0
 2020-04-03,Sibley,0,1,0,0
 2020-04-03,Stearns,0,5,0,0
