@@ -60,6 +60,8 @@ last_update|datetime|Timestamp when scraper last ran|
 
 A statewide daily county of positive COVID-19 tests, compiled by daily scraping of the [Minnesota Department of Health's coronavirus situation page](https://www.health.state.mn.us/diseases/coronavirus/situation.html). Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting.
 
+**UPDATE:** The Minnesota Department of Health released daily hospitalization numbers on April 3, 2020, in which the data for previous days differed significantly from the numbers they reported on conference calls at the time. The health department reports that the information on the calls was not final and that the data released later should be regarded as more accurate. We have updated our records to reflect these new numbers.
+
 |Column name|Format|Description|
 |---|---|---|
 |date|date|YYYY-MM-DD|
