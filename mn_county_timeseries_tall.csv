@@ -610,7 +610,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-04-04,Lincoln,0,1,0,0
 2020-04-04,Lyon,0,3,0,0
 2020-04-04,Mahnomen,0,1,0,0
-2020-04-04,Martin,0,32,0,3
+2020-04-04,Martin,0,32,1,3
 2020-04-04,McLeod,1,1,0,0
 2020-04-04,Meeker,0,1,0,0
 2020-04-04,Mower,2,17,0,0
@@ -633,6 +633,6 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-04-04,Washington,3,54,0,0
 2020-04-04,Watonwan,0,3,0,0
 2020-04-04,Wilkin,0,2,0,0
-2020-04-04,Winona,2,13,0,1
+2020-04-04,Winona,2,13,1,1
 2020-04-04,Wright,1,8,0,0
 2020-04-04,Yellow Medicine,0,1,0,0
