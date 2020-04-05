@@ -650,14 +650,14 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-04-05,Clearwater,0,2,0,0
 2020-04-05,Cottonwood,0,5,0,0
 2020-04-05,Crow Wing,1,6,0,0
-2020-04-05,Dakota,7,63,0,1
+2020-04-05,Dakota,7,63,1,2
 2020-04-05,Dodge,0,10,0,0
 2020-04-05,Douglas,0,1,0,0
 2020-04-05,Faribault,0,3,0,0
 2020-04-05,Fillmore,1,10,0,0
 2020-04-05,Freeborn,0,10,0,0
 2020-04-05,Goodhue,2,10,0,0
-2020-04-05,Hennepin,15,267,0,12
+2020-04-05,Hennepin,15,267,2,14
 2020-04-05,Houston,1,1,0,0
 2020-04-05,Isanti,1,4,0,0
 2020-04-05,Itasca,0,2,0,0
@@ -674,7 +674,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-04-05,Meeker,0,1,0,0
 2020-04-05,Mower,0,17,0,0
 2020-04-05,Nicollet,0,4,0,0
-2020-04-05,Olmsted,7,95,0,1
+2020-04-05,Olmsted,7,95,1,2
 2020-04-05,Otter Tail,0,1,0,0
 2020-04-05,Pipestone,1,1,0,0
 2020-04-05,Polk,0,1,0,0
@@ -690,7 +690,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-04-05,Traverse,0,2,0,0
 2020-04-05,Wabasha,0,6,0,0
 2020-04-05,Waseca,0,3,0,0
-2020-04-05,Washington,8,62,0,0
+2020-04-05,Washington,8,62,1,1
 2020-04-05,Watonwan,1,4,0,0
 2020-04-05,Wilkin,0,2,0,0
 2020-04-05,Winona,1,14,0,2
