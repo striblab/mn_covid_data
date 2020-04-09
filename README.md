@@ -18,7 +18,7 @@ If you alter or build upon our data, you may distribute the result only under th
 
 ### How to credit the Star Tribune
 
-We require that you use the credit “Star Tribune and Minneasota Department of Health." The credit must link to https://www.startribune.com/coronavirus-covid-19-minnesota-tracker-map-county-data/568712601/, unless the credit is appearing in printed media.
+We require that you use the credit “Star Tribune and Minnesota Department of Health." The credit must link to https://www.startribune.com/coronavirus-covid-19-minnesota-tracker-map-county-data/568712601/, unless the credit is appearing in printed media.
 
 You must also make it clear to anyone who requests access to the data that it is available under the Open Database License. If you are distributing the spreadsheets in a data form, you can name and [link directly to the license](https://opendatacommons.org/licenses/odbl/1.0/).
 
