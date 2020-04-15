@@ -101,17 +101,3 @@ A "wide" timeseries of each county's cumulative positive COVID-19 tests by the d
 |---|---|---|
 |county|string|County name|
 |[YYYY-MM-DD]|integer|Number of cumulative positive COVID-19 tests statewide by this date|
-
-
-#### mn_county_timeseries_tall.csv
-
-A "tall" timeseries of each county's positive tests and deaths by a given date. Only counties with at least one positive test are included. Compiled by daily scraping of the [Minnesota Department of Health's coronavirus situation page](https://www.health.state.mn.us/diseases/coronavirus/situation.html) Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting.
-
-|Column name|Format|Description|
-|---|---|---|
-|date|date|YYYY-MM-DD|
-|county|string|County name|
-|daily_cases|integer|Number of new positive COVID-19 tests reported on this date|
-|cumulative_cases|integer|Number of cumulative positive COVID-19 tests by this date|
-|daily_deaths|integer|Number of new COVID-19 deaths reported on this date|
-|cumulative_deaths|integer|Number of cumulative COVID-19 deaths by this date|
