@@ -1685,7 +1685,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-04-20,Fillmore,1,11,0,0
 2020-04-20,Freeborn,-1,33,0,0
 2020-04-20,Goodhue,0,19,0,0
-2020-04-20,Hennepin,51,975,5,80
+2020-04-20,Hennepin,51,975,4,79
 2020-04-20,Houston,0,1,0,0
 2020-04-20,Isanti,1,6,0,0
 2020-04-20,Itasca,0,2,0,0
@@ -1762,7 +1762,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-04-21,Fillmore,0,11,0,0
 2020-04-21,Freeborn,0,33,0,0
 2020-04-21,Goodhue,0,19,0,0
-2020-04-21,Hennepin,38,1013,15,95
+2020-04-21,Hennepin,38,1013,16,95
 2020-04-21,Houston,0,1,0,0
 2020-04-21,Isanti,0,6,0,0
 2020-04-21,Itasca,0,2,0,0

@@ -1292,8 +1292,8 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-04-17,Hennepin,100,806,9,61
 2020-04-18,Hennepin,69,875,8,69
 2020-04-19,Hennepin,49,924,6,75
-2020-04-20,Hennepin,51,975,5,80
-2020-04-21,Hennepin,38,1013,15,95
+2020-04-20,Hennepin,51,975,4,79
+2020-04-21,Hennepin,38,1013,16,95
 2020-04-22,Hennepin,60,1073,18,113
 2020-03-06,Houston,0,0,0,0
 2020-03-07,Houston,0,0,0,0
