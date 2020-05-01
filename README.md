@@ -91,6 +91,16 @@ A "tall" timeseries of each county's positive tests and deaths by a given date. 
 
 Same fields and sources as the "tall" timeseries. This file includes all Minnesota counties and all dates, even if that county has never had a confirmed COVID-19 case.
 
+#### mn_ages_latest.csv
+
+A snapshot of the latest cumulative statewide age data from the Minnesota Department of Health's situation page: https://www.health.state.mn.us/diseases/coronavirus/situation.html.
+
+|Column name|Format|Description|
+|---|---|---|
+age_group|string|Description of age group
+pct_of_cases|integer|Percentage of cumulative cases that are in this age group. -1 indicates a value of "<1%"|
+pct_of_deaths|integer|Percentage of cumulative deaths that are in this age group. -1 indicates a value of "<1%"|
+
 #### mn_county_timeseries.csv (Deprecated)
 
 **This file is no longer being updated. If it's something you were using, please let us know and we will resume updates.**
