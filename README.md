@@ -93,7 +93,7 @@ Same fields and sources as the "tall" timeseries. This file includes all Minneso
 
 #### mn_ages_latest.csv
 
-A snapshot of the latest cumulative statewide age data from the Minnesota Department of Health's situation page: https://www.health.state.mn.us/diseases/coronavirus/situation.html.
+A snapshot of the latest cumulative statewide age data from the [Minnesota Department of Health's coronavirus situation page](https://www.health.state.mn.us/diseases/coronavirus/situation.html).
 
 |Column name|Format|Description|
 |---|---|---|
