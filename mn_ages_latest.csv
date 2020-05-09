@@ -1,5 +1,4 @@
 age_group,pct_of_cases,pct_of_deaths
-0-5 years,1,0
 6-19 years,5,0
 20-29 years,17,0
 30-39 years,19,-1
@@ -9,3 +8,4 @@ age_group,pct_of_cases,pct_of_deaths
 70+ years,16,83
 Unknown/missing,-1,0
 Unknown/ missing,-1,0
+0-5 years,1,0
