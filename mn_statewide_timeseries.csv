@@ -1,5 +1,6 @@
 date,total_positive_tests,new_positive_tests,removed_cases,total_hospitalized,currently_hospitalized,currently_in_icu,total_statewide_deaths,new_statewide_deaths,total_statewide_recoveries,total_completed_tests,new_completed_tests
-2020-03-06,1,0,0,0,0,0,0,0,0,48,48
+2020-03-05,1,1,0,0,0,0,0,0,0,22,22
+2020-03-06,1,0,0,0,0,0,0,0,0,48,26
 2020-03-07,2,1,0,0,0,0,0,0,0,48,0
 2020-03-08,2,0,0,0,0,0,0,0,0,80,32
 2020-03-09,5,3,0,0,0,0,0,0,0,80,0
