@@ -67,12 +67,15 @@ A statewide daily county of positive COVID-19 tests, compiled by daily scraping 
 |date|date|YYYY-MM-DD|
 |total_positive_tests|integer|Number of cumulative positive COVID-19 tests statewide by this date|
 |new_positive_tests|integer|Number of new positive COVID-19 tests reported statewide on this date|
+|removed_cases|integer|Number of cases from any date that were removed from the cumulative total on this date. This can occur when MDH confirms a false positive or the patient is determined to live outside Minnesota, for example.|
 |total_hospitalized|integer|Number of cumulative hospitalized people statewide by this date. A single person who was hospitalized twice would could as two hospitalizations, according to MDH.|
 |currently_hospitalized|integer|Number of people currently hospitalized on this date|
 |currently_in_icu|integer|Number of people currently in ICU care on this date|
 |total_statewide_deaths|integer|Number of deaths statewide by this date|
 |new_statewide_deaths|integer|Number of new deaths reported statewide on this date|
 |total_statewide_recoveries|integer|Number of "patients who no longer need to be isolated," according to MDH.|
+|total_completed_tests|integer|Number of total tests completed statewide, by both government and private labs. Please note that this number is pegged to the date MDH reported the number to the public, not the date when it was received by MDH, so this number may be time-shifted one day from what is published on MDH's website.|
+|new_completed_tests|integer|Number of new tests completed statewide since the previous day. Please note that this number is pegged to the date MDH reported the number to the public, not the date when it was received by MDH, so this number may be time-shifted one day from what is published on MDH's website.|
 
 #### mn_county_timeseries_tall.csv
 
