@@ -60,13 +60,15 @@ last_update|datetime|Timestamp when scraper last ran|
 
 A statewide daily county of positive COVID-19 tests, compiled by daily scraping of the [Minnesota Department of Health's coronavirus situation page](https://www.health.state.mn.us/diseases/coronavirus/situation.html). Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting.
 
-**UPDATE:** The Minnesota Department of Health released daily hospitalization numbers on April 3, 2020, in which the data for previous days differed significantly from the numbers they reported on conference calls at the time. The health department reports that the information on the calls was not final and that the data released later should be regarded as more accurate. We have updated our records to reflect these new numbers.
+**UPDATE May 14, 2020:** The Minnesota Department of Health changed its methodology and is now assigning positive tests to the date the specimen was taken, not the date it was reported to MDH. We have updated our data to reflect this change, including past numbers. We have also corrected a double-counting of total tests that MDH was reporting in error from April 25 through May 5.
+
+**UPDATE April 3, 2020:** The Minnesota Department of Health released daily hospitalization numbers on April 3, 2020, in which the data for previous days differed significantly from the numbers they reported on conference calls at the time. The health department reports that the information on the calls was not final and that the data released later should be regarded as more accurate. We have updated our records to reflect these new numbers.
 
 |Column name|Format|Description|
 |---|---|---|
 |date|date|YYYY-MM-DD|
-|total_positive_tests|integer|Number of cumulative positive COVID-19 tests statewide by this date|
-|new_positive_tests|integer|Number of new positive COVID-19 tests reported statewide on this date|
+|total_positive_tests|integer|Number of cumulative positive COVID-19 tests statewide by this date, calculated by the date each test speciman was given, not the date it was reported by MDH.|
+|new_positive_tests|integer|Number of new positive COVID-19 tests reported statewide on this date, calculated by the date each test speciman was given, not the date it was reported by MDH.|
 |removed_cases|integer|Number of cases from any date that were removed from the cumulative total on this date. This can occur when MDH confirms a false positive or the patient is determined to live outside Minnesota, for example.|
 |total_hospitalized|integer|Number of cumulative hospitalized people statewide by this date. A single person who was hospitalized twice would could as two hospitalizations, according to MDH.|
 |currently_hospitalized|integer|Number of people currently hospitalized on this date|
