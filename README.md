@@ -72,9 +72,12 @@ A statewide daily county of positive COVID-19 tests, compiled by daily scraping 
 |Column name|Format|Description|
 |---|---|---|
 |date|date|YYYY-MM-DD|
-|total_positive_tests|integer|Number of cumulative positive COVID-19 tests statewide by this date, calculated by the date each test speciman was given, not the date it was reported by MDH.|
-|new_positive_tests|integer|Number of new positive COVID-19 tests reported statewide on this date, calculated by the date each test speciman was given, not the date it was reported by MDH.|
-|removed_cases|integer|Number of cases from any date that were removed from the cumulative total on this date. This can occur when MDH confirms a false positive or the patient is determined to live outside Minnesota, for example.|
+|total_confirmed_cases|integer|Number of cumulative positive COVID-19 tests statewide|
+|cases_daily_change|integer|Difference between total_confirmed_cases this day and the previous day|
+|cases_newly_reported|integer|"New" cases as reported by MDH. This plus cases_removed should add up to daily change. Starts May 18, 2020.|
+|cases_removed|integer|Cases removed on this day by MDH. This plus daily_cases_newly_reported should add up to daily change. Cases may be removed becase of false positives or because a patient is later determined to have been not a Minnesota resident, for example. Starts May 18, 2020.|
+|cases_sample_date|integer|Number of new positive COVID-19 tests reported statewide on this date, calculated by the date each test speciman was given, not the date it was reported by MDH.|
+|cases_total_sample_date|integer|Number of cumulative positive COVID-19 tests statewide by this date, calculated by the date each test speciman was given, not the date it was reported by MDH.|
 |total_hospitalized|integer|Number of cumulative hospitalized people statewide by this date. A single person who was hospitalized twice would could as two hospitalizations, according to MDH.|
 |currently_hospitalized|integer|Number of people currently hospitalized on this date|
 |currently_in_icu|integer|Number of people currently in ICU care on this date|
