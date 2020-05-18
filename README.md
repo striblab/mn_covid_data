@@ -46,8 +46,8 @@ A snapshot of the latest cumulative statewide data from the Minnesota Department
 |---|---|---|
 |total_confirmed_cases|integer|Number of cumulative positive COVID-19 tests statewide|
 |cases_daily_change|integer|Difference between total_confirmed_cases yesterday and today|
-|daily_cases_newly_reported|"New" cases as reported by MDH. This plus cases_removed should add up to daily change. Starts May 18, 2020.|
-|daily_cases_removed|Cases removed on this day by MDH. This plus daily_cases_newly_reported should add up to daily change. Starts May 18, 2020. Cases may be removed becase of false positives or because a patient is later determined to have been not a Minnesota resident, for example.|
+|daily_cases_newly_reported|integer|"New" cases as reported by MDH. This plus cases_removed should add up to daily change. Starts May 18, 2020.|
+|daily_cases_removed|integer|Cases removed on this day by MDH. This plus daily_cases_newly_reported should add up to daily change. Starts May 18, 2020. Cases may be removed becase of false positives or because a patient is later determined to have been not a Minnesota resident, for example.|
 |total_statewide_deaths|integer|Number of deaths statewide|
 |daily_statewide_deaths|integer|Number of newly reported deaths statewide|
 |total_statewide_recoveries|integer|Number of "patients who no longer need to be isolated," according to MDH. Please note, this includes patients who have died.|
