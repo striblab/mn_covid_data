@@ -6,5 +6,3 @@ age_group,cases,deaths,pct_of_cases,pct_of_deaths,pct_state_pop
 40-49 years,2881,8,16,-1,12
 50-59 years,2724,39,15,5,13
 60-69 years,1733,89,10,11,12
-70+ years,2522,640,14,79,11
-Unknown/missing,8,0,-1,,N/A
