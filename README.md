@@ -69,6 +69,8 @@ A statewide daily county of positive COVID-19 tests, compiled by daily scraping 
 
 **UPDATE April 3, 2020:** The Minnesota Department of Health released daily hospitalization numbers on April 3, 2020, in which the data for previous days differed significantly from the numbers they reported on conference calls at the time. The health department reports that the information on the calls was not final and that the data released later should be regarded as more accurate. We have updated our records to reflect these new numbers.
 
+**UPDATE July 3, 2020:** The Minnesota Department of Health will not be updating its situation page on July 4. As a result, our records will not reflect updates on that day. MDH will still collect data for July 4, but will release that data on July 5. Some data may get backdated to July 4, but July 5's data may appear inflated as a result.
+
 |Column name|Format|Description|
 |---|---|---|
 |date|date|YYYY-MM-DD|
