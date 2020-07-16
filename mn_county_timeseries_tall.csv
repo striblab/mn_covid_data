@@ -89,6 +89,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Aitkin,0,16,0,0,0.1,0.0,1,
 2020-07-14,Aitkin,1,17,0,0,0.3,0.0,2,
 2020-07-15,Aitkin,0,17,0,0,0.3,0.0,2,
+2020-07-16,Aitkin,1,18,0,0,0.4,0.0,3,
 2020-03-10,Anoka,1,1,0,0,1.0,0.0,1,
 2020-03-13,Anoka,1,2,0,0,1.0,0.0,2,
 2020-03-16,Anoka,1,3,0,0,1.0,0.0,3,
@@ -207,6 +208,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Anoka,36,2458,0,111,31.0,0.29,217,0.097
 2020-07-14,Anoka,19,2477,3,114,30.1,0.71,211,0.093
 2020-07-15,Anoka,33,2510,1,115,31.0,0.71,217,0.095
+2020-07-16,Anoka,24,2534,-7,108,29.4,-0.43,206,0.088
 2020-04-11,Becker,1,1,0,0,1.0,0.0,1,
 2020-04-12,Becker,1,2,0,0,1.0,0.0,2,
 2020-04-13,Becker,0,2,0,0,0.7,0.0,2,
@@ -303,6 +305,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Becker,2,68,0,0,1.7,0.0,12,
 2020-07-14,Becker,1,69,0,0,1.7,0.0,12,
 2020-07-15,Becker,0,69,0,0,1.7,0.0,12,
+2020-07-16,Becker,2,71,0,0,2.0,0.0,14,
 2020-03-27,Beltrami,1,1,0,0,1.0,0.0,1,
 2020-03-28,Beltrami,1,2,0,0,1.0,0.0,2,
 2020-03-29,Beltrami,0,2,0,0,0.7,0.0,2,
@@ -414,6 +417,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Beltrami,2,55,0,0,3.6,0.0,25,
 2020-07-14,Beltrami,3,58,0,0,3.4,0.0,24,
 2020-07-15,Beltrami,4,62,0,0,3.9,0.0,27,
+2020-07-16,Beltrami,9,71,0,0,4.3,0.0,30,
 2020-03-16,Benton,1,1,0,0,1.0,0.0,1,
 2020-03-25,Benton,0,1,0,0,0.5,0.0,1,
 2020-03-26,Benton,0,1,0,0,0.3,0.0,1,
@@ -528,6 +532,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Benton,3,242,0,3,3.6,0.0,25,0.115
 2020-07-14,Benton,1,243,0,3,3.3,0.0,23,0.105
 2020-07-15,Benton,7,250,0,3,4.1,0.0,29,0.131
+2020-07-16,Benton,5,255,0,3,3.9,0.0,27,0.118
 2020-03-23,Big Stone,1,1,0,0,1.0,0.0,1,
 2020-03-25,Big Stone,0,1,0,0,0.5,0.0,1,
 2020-03-26,Big Stone,0,1,0,0,0.3,0.0,1,
@@ -642,6 +647,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Big Stone,1,18,0,0,0.4,0.0,3,
 2020-07-14,Big Stone,0,18,0,0,0.4,0.0,3,
 2020-07-15,Big Stone,0,18,0,0,0.1,0.0,1,
+2020-07-16,Big Stone,0,18,0,0,0.1,0.0,1,
 2020-03-16,Blue Earth,1,1,0,0,1.0,0.0,1,
 2020-03-18,Blue Earth,1,2,0,0,1.0,0.0,2,
 2020-03-21,Blue Earth,1,3,0,0,1.0,0.0,3,
@@ -760,6 +766,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Blue Earth,11,586,0,2,15.3,0.0,107,0.223
 2020-07-14,Blue Earth,14,600,0,2,15.1,0.0,106,0.215
 2020-07-15,Blue Earth,29,629,0,2,17.0,0.0,119,0.233
+2020-07-16,Blue Earth,10,639,0,2,14.9,0.0,104,0.194
 2020-03-31,Brown,2,2,0,0,2.0,0.0,2,
 2020-04-01,Brown,0,2,0,0,1.0,0.0,2,
 2020-04-02,Brown,0,2,0,0,0.7,0.0,2,
@@ -867,6 +874,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Brown,3,49,0,2,2.6,0.0,18,
 2020-07-14,Brown,2,51,0,2,2.4,0.0,17,
 2020-07-15,Brown,2,53,0,2,2.3,0.0,16,
+2020-07-16,Brown,0,53,0,2,2.0,0.0,14,
 2020-03-31,Carlton,1,1,0,0,1.0,0.0,1,
 2020-04-01,Carlton,1,2,0,0,1.0,0.0,2,
 2020-04-02,Carlton,1,3,0,0,1.0,0.0,3,
@@ -974,6 +982,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Carlton,0,94,0,0,1.0,0.0,7,
 2020-07-14,Carlton,2,96,0,0,1.3,0.0,9,
 2020-07-15,Carlton,0,96,0,0,1.1,0.0,8,
+2020-07-16,Carlton,0,96,0,0,1.0,0.0,7,
 2020-03-08,Carver,1,1,0,0,1.0,0.0,1,
 2020-03-18,Carver,1,2,0,0,1.0,0.0,2,
 2020-03-19,Carver,1,3,0,0,1.0,0.0,3,
@@ -1092,6 +1101,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Carver,6,500,0,2,17.0,0.14,119,0.312
 2020-07-14,Carver,9,509,0,2,16.3,0.14,114,0.289
 2020-07-15,Carver,9,518,0,2,14.4,0.14,101,0.242
+2020-07-16,Carver,15,533,0,2,14.3,0.14,100,0.231
 2020-03-22,Cass,1,1,0,0,1.0,0.0,1,
 2020-03-25,Cass,0,1,0,0,0.5,0.0,1,
 2020-03-26,Cass,0,1,0,0,0.3,0.0,1,
@@ -1206,6 +1216,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Cass,1,20,0,2,0.6,0.0,4,
 2020-07-14,Cass,1,21,0,2,0.7,0.0,5,
 2020-07-15,Cass,1,22,0,2,0.4,0.0,3,
+2020-07-16,Cass,4,26,0,2,1.0,0.0,7,
 2020-04-20,Chippewa,1,1,0,0,1.0,0.0,1,
 2020-04-21,Chippewa,0,1,0,0,0.5,0.0,1,
 2020-04-22,Chippewa,0,1,0,0,0.3,0.0,1,
@@ -1293,6 +1304,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Chippewa,0,81,0,1,0.3,0.0,2,
 2020-07-14,Chippewa,1,82,0,1,0.4,0.0,3,
 2020-07-15,Chippewa,2,84,0,1,0.7,0.0,5,
+2020-07-16,Chippewa,-1,83,0,1,0.6,0.0,4,
 2020-03-20,Chisago,1,1,0,0,1.0,0.0,1,
 2020-03-23,Chisago,1,2,0,0,1.0,0.0,2,
 2020-03-25,Chisago,0,2,0,0,0.7,0.0,2,
@@ -1408,6 +1420,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Chisago,1,111,0,1,1.6,0.0,11,0.11
 2020-07-14,Chisago,1,112,0,1,1.4,0.0,10,0.098
 2020-07-15,Chisago,1,113,0,1,1.6,0.0,11,0.108
+2020-07-16,Chisago,1,114,0,1,1.6,0.0,11,0.107
 2020-03-19,Clay,1,1,0,0,1.0,0.0,1,
 2020-03-22,Clay,1,2,0,0,1.0,0.0,2,
 2020-03-24,Clay,1,3,0,0,1.0,0.0,3,
@@ -1524,6 +1537,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Clay,7,620,0,38,4.7,0.0,33,0.056
 2020-07-14,Clay,7,627,0,38,5.1,0.0,36,0.061
 2020-07-15,Clay,5,632,0,38,5.3,0.0,37,0.062
+2020-07-16,Clay,6,638,0,38,5.7,0.0,40,0.067
 2020-03-28,Clearwater,1,1,0,0,1.0,0.0,1,
 2020-03-29,Clearwater,0,1,0,0,0.5,0.0,1,
 2020-03-30,Clearwater,1,2,0,0,0.7,0.0,2,
@@ -1634,6 +1648,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Clearwater,2,15,0,0,1.0,0.0,7,
 2020-07-14,Clearwater,-1,14,0,0,0.7,0.0,5,
 2020-07-15,Clearwater,0,14,0,0,0.7,0.0,5,
+2020-07-16,Clearwater,0,14,0,0,0.6,0.0,4,
 2020-03-29,Cottonwood,1,1,0,0,1.0,0.0,1,
 2020-03-30,Cottonwood,0,1,0,0,0.5,0.0,1,
 2020-03-31,Cottonwood,1,2,0,0,0.7,0.0,2,
@@ -1743,6 +1758,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Cottonwood,1,142,0,0,0.9,0.0,6,0.044
 2020-07-14,Cottonwood,0,142,0,0,0.9,0.0,6,0.044
 2020-07-15,Cottonwood,2,144,0,0,1.0,0.0,7,0.051
+2020-07-16,Cottonwood,2,146,0,0,1.1,0.0,8,0.058
 2020-04-01,Crow Wing,1,1,0,0,1.0,0.0,1,
 2020-04-02,Crow Wing,1,2,0,0,1.0,0.0,2,
 2020-04-03,Crow Wing,1,3,0,0,1.0,0.0,3,
@@ -1849,6 +1865,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Crow Wing,2,115,0,12,1.3,0.0,9,0.085
 2020-07-14,Crow Wing,1,116,0,12,1.1,0.0,8,0.074
 2020-07-15,Crow Wing,3,119,0,12,1.4,0.0,10,0.092
+2020-07-16,Crow Wing,3,122,0,12,2.0,0.0,14,0.13
 2020-03-12,Dakota,1,1,0,0,1.0,0.0,1,
 2020-03-14,Dakota,1,2,0,0,1.0,0.0,2,
 2020-03-15,Dakota,1,3,0,0,1.0,0.0,3,
@@ -1971,6 +1988,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Dakota,40,2753,0,96,53.0,0.71,371,0.156
 2020-07-14,Dakota,28,2781,0,96,51.4,0.57,360,0.149
 2020-07-15,Dakota,71,2852,1,97,53.3,0.57,373,0.15
+2020-07-16,Dakota,60,2912,2,99,55.4,0.71,388,0.154
 2020-03-21,Dodge,1,1,0,0,1.0,0.0,1,
 2020-03-22,Dodge,1,2,0,0,1.0,0.0,2,
 2020-03-24,Dodge,1,3,0,0,1.0,0.0,3,
@@ -2087,6 +2105,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Dodge,2,99,0,0,1.7,0.0,12,
 2020-07-14,Dodge,1,100,0,0,1.7,0.0,12,0.136
 2020-07-15,Dodge,5,105,0,0,1.9,0.0,13,0.141
+2020-07-16,Dodge,2,107,0,0,2.0,0.0,14,0.151
 2020-03-29,Douglas,1,1,0,0,1.0,0.0,1,
 2020-03-30,Douglas,0,1,0,0,0.5,0.0,1,
 2020-03-31,Douglas,0,1,0,0,0.3,0.0,1,
@@ -2196,6 +2215,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Douglas,1,74,0,0,1.3,0.0,9,
 2020-07-14,Douglas,1,75,0,0,1.4,0.0,10,
 2020-07-15,Douglas,8,83,0,0,2.4,0.0,17,
+2020-07-16,Douglas,8,91,0,0,3.4,0.0,24,
 2020-03-27,Faribault,1,1,0,0,1.0,0.0,1,
 2020-03-28,Faribault,0,1,0,0,0.5,0.0,1,
 2020-03-29,Faribault,0,1,0,0,0.3,0.0,1,
@@ -2307,6 +2327,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Faribault,-1,61,0,0,0.7,0.0,5,
 2020-07-14,Faribault,3,64,0,0,0.6,0.0,4,
 2020-07-15,Faribault,0,64,0,0,0.6,0.0,4,
+2020-07-16,Faribault,3,67,0,0,1.0,0.0,7,
 2020-03-20,Fillmore,2,2,0,0,2.0,0.0,2,
 2020-03-23,Fillmore,1,3,0,0,1.5,0.0,3,
 2020-03-25,Fillmore,0,3,0,0,1.0,0.0,3,
@@ -2422,6 +2443,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Fillmore,0,36,0,0,0.9,0.0,6,
 2020-07-14,Fillmore,2,38,0,0,1.1,0.0,8,
 2020-07-15,Fillmore,0,38,0,0,1.1,0.0,8,
+2020-07-16,Fillmore,2,40,0,0,1.4,0.0,10,
 2020-04-01,Freeborn,2,2,0,0,2.0,0.0,2,
 2020-04-02,Freeborn,3,5,0,0,2.5,0.0,5,
 2020-04-03,Freeborn,2,7,0,0,2.3,0.0,7,
@@ -2528,6 +2550,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Freeborn,1,314,0,0,3.1,0.0,22,0.075
 2020-07-14,Freeborn,2,316,0,0,2.7,0.0,19,0.064
 2020-07-15,Freeborn,0,316,0,0,2.6,0.0,18,0.06
+2020-07-16,Freeborn,1,317,1,1,2.1,0.14,15,0.05
 2020-03-25,Goodhue,1,1,0,0,1.0,0.0,1,
 2020-03-26,Goodhue,0,1,0,0,0.5,0.0,1,
 2020-03-27,Goodhue,1,2,0,0,0.7,0.0,2,
@@ -2641,6 +2664,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Goodhue,0,142,0,8,1.6,0.0,11,0.084
 2020-07-14,Goodhue,0,142,0,8,1.6,0.0,11,0.084
 2020-07-15,Goodhue,4,146,0,8,2.0,0.0,14,0.106
+2020-07-16,Goodhue,0,146,0,8,1.3,0.0,9,0.066
 2020-05-02,Grant,1,1,0,0,1.0,0.0,1,
 2020-05-03,Grant,0,1,0,0,0.5,0.0,1,
 2020-05-04,Grant,0,1,0,0,0.3,0.0,1,
@@ -2716,6 +2740,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Grant,0,32,0,0,2.9,0.0,20,
 2020-07-14,Grant,-1,31,0,0,2.0,0.0,14,
 2020-07-15,Grant,0,31,1,1,2.0,0.14,14,
+2020-07-16,Grant,1,32,0,1,1.4,0.14,10,
 2020-03-12,Hennepin,1,1,0,0,1.0,0.0,1,
 2020-03-13,Hennepin,2,3,0,0,1.5,0.0,3,
 2020-03-14,Hennepin,3,6,0,0,2.0,0.0,6,
@@ -2842,6 +2867,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Hennepin,129,13697,0,791,177.3,0.57,1241,0.1
 2020-07-14,Hennepin,93,13790,0,791,170.4,0.57,1193,0.095
 2020-07-15,Hennepin,158,13948,2,793,177.9,0.57,1245,0.098
+2020-07-16,Hennepin,177,14125,1,794,179.7,0.71,1258,0.098
 2020-04-05,Houston,1,1,0,0,1.0,0.0,1,
 2020-04-06,Houston,0,1,0,0,0.5,0.0,1,
 2020-04-07,Houston,0,1,0,0,0.3,0.0,1,
@@ -2944,6 +2970,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Houston,0,32,0,0,0.9,0.0,6,
 2020-07-14,Houston,0,32,0,0,0.7,0.0,5,
 2020-07-15,Houston,0,32,0,0,0.6,0.0,4,
+2020-07-16,Houston,1,33,0,0,0.6,0.0,4,
 2020-05-13,Hubbard,0,0,0,0,0.0,0.0,0,
 2020-05-14,Hubbard,0,0,0,0,0.0,0.0,0,
 2020-05-15,Hubbard,0,0,0,0,0.0,0.0,0,
@@ -3008,6 +3035,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Hubbard,0,10,0,0,0.4,0.0,3,
 2020-07-14,Hubbard,1,11,0,0,0.4,0.0,3,
 2020-07-15,Hubbard,1,12,0,0,0.6,0.0,4,
+2020-07-16,Hubbard,0,12,0,0,0.6,0.0,4,
 2020-03-29,Isanti,1,1,0,0,1.0,0.0,1,
 2020-03-30,Isanti,1,2,0,0,1.0,0.0,2,
 2020-03-31,Isanti,0,2,0,0,0.7,0.0,2,
@@ -3117,6 +3145,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Isanti,0,83,0,0,1.4,0.0,10,
 2020-07-14,Isanti,1,84,0,0,1.3,0.0,9,
 2020-07-15,Isanti,2,86,0,0,1.4,0.0,10,
+2020-07-16,Isanti,1,87,0,0,1.3,0.0,9,
 2020-03-30,Itasca,1,1,0,0,1.0,0.0,1,
 2020-03-31,Itasca,0,1,0,0,0.5,0.0,1,
 2020-04-01,Itasca,0,1,0,0,0.3,0.0,1,
@@ -3225,6 +3254,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Itasca,5,76,0,12,1.7,0.0,12,
 2020-07-14,Itasca,0,76,0,12,1.7,0.0,12,
 2020-07-15,Itasca,3,79,0,12,2.0,0.0,14,
+2020-07-16,Itasca,7,86,0,12,2.6,0.0,18,
 2020-03-21,Jackson,1,1,0,0,1.0,0.0,1,
 2020-03-25,Jackson,0,1,0,0,0.5,0.0,1,
 2020-03-26,Jackson,0,1,0,0,0.3,0.0,1,
@@ -3339,6 +3369,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Jackson,1,58,0,0,0.4,0.0,3,
 2020-07-14,Jackson,0,58,0,0,0.4,0.0,3,
 2020-07-15,Jackson,1,59,0,0,0.6,0.0,4,
+2020-07-16,Jackson,1,60,0,0,0.4,0.0,3,
 2020-05-01,Kanabec,1,1,0,0,1.0,0.0,1,
 2020-05-02,Kanabec,0,1,0,0,0.5,0.0,1,
 2020-05-03,Kanabec,0,1,0,0,0.3,0.0,1,
@@ -3415,6 +3446,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Kanabec,1,18,0,1,0.6,0.0,4,
 2020-07-14,Kanabec,0,18,0,1,0.4,0.0,3,
 2020-07-15,Kanabec,0,18,0,1,0.4,0.0,3,
+2020-07-16,Kanabec,0,18,0,1,0.3,0.0,2,
 2020-03-26,Kandiyohi,1,1,0,0,1.0,0.0,1,
 2020-03-27,Kandiyohi,0,1,0,0,0.5,0.0,1,
 2020-03-28,Kandiyohi,0,1,0,0,0.3,0.0,1,
@@ -3527,6 +3559,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Kandiyohi,2,595,0,1,3.1,0.0,22,0.038
 2020-07-14,Kandiyohi,0,595,0,1,2.4,0.0,17,0.029
 2020-07-15,Kandiyohi,5,600,0,1,2.6,0.0,18,0.031
+2020-07-16,Kandiyohi,1,601,0,1,2.4,0.0,17,0.029
 2020-04-18,Kittson,1,1,0,0,1.0,0.0,1,
 2020-04-19,Kittson,0,1,0,0,0.5,0.0,1,
 2020-04-20,Kittson,0,1,0,0,0.3,0.0,1,
@@ -3616,6 +3649,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Kittson,0,2,0,0,0.0,0.0,0,
 2020-07-14,Kittson,0,2,0,0,0.0,0.0,0,
 2020-07-15,Kittson,0,2,0,0,0.0,0.0,0,
+2020-07-16,Kittson,0,2,0,0,0.0,0.0,0,
 2020-04-02,Koochiching,1,1,0,0,1.0,0.0,1,
 2020-04-03,Koochiching,0,1,0,0,0.5,0.0,1,
 2020-04-04,Koochiching,0,1,0,0,0.3,0.0,1,
@@ -3721,6 +3755,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Koochiching,1,22,0,1,1.0,0.0,7,
 2020-07-14,Koochiching,2,24,0,1,0.9,0.0,6,
 2020-07-15,Koochiching,2,26,0,1,1.3,0.0,9,
+2020-07-16,Koochiching,3,29,1,2,1.7,0.14,12,
 2020-03-23,Lac qui Parle,1,1,0,0,1.0,0.0,1,
 2020-03-25,Lac qui Parle,0,1,0,0,0.5,0.0,1,
 2020-03-26,Lac qui Parle,0,1,0,0,0.3,0.0,1,
@@ -3835,6 +3870,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Lac qui Parle,0,5,0,0,0.1,0.0,1,
 2020-07-14,Lac qui Parle,1,6,0,0,0.3,0.0,2,
 2020-07-15,Lac qui Parle,0,6,0,0,0.3,0.0,2,
+2020-07-16,Lac qui Parle,0,6,0,0,0.3,0.0,2,
 2020-05-07,Lake,1,1,0,0,1.0,0.0,1,
 2020-05-08,Lake,0,1,0,0,0.5,0.0,1,
 2020-05-09,Lake,0,1,0,0,0.3,0.0,1,
@@ -3905,6 +3941,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Lake,0,9,0,0,0.4,0.0,3,
 2020-07-14,Lake,0,9,0,0,0.4,0.0,3,
 2020-07-15,Lake,1,10,0,0,0.6,0.0,4,
+2020-07-16,Lake,2,12,0,0,0.9,0.0,6,
 2020-05-13,Lake of the Woods,0,0,0,0,0.0,0.0,0,
 2020-05-14,Lake of the Woods,0,0,0,0,0.0,0.0,0,
 2020-05-15,Lake of the Woods,0,0,0,0,0.0,0.0,0,
@@ -3969,6 +4006,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Lake of the Woods,0,0,0,0,0.0,0.0,0,
 2020-07-14,Lake of the Woods,0,0,0,0,0.0,0.0,0,
 2020-07-15,Lake of the Woods,0,0,0,0,0.0,0.0,0,
+2020-07-16,Lake of the Woods,0,0,0,0,0.0,0.0,0,
 2020-03-22,Le Sueur,1,1,0,0,1.0,0.0,1,
 2020-03-24,Le Sueur,4,5,0,0,2.5,0.0,5,
 2020-03-25,Le Sueur,1,6,0,0,2.0,0.0,6,
@@ -4084,6 +4122,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Le Sueur,4,136,0,1,4.7,0.0,33,0.32
 2020-07-14,Le Sueur,6,142,0,1,4.9,0.0,34,0.315
 2020-07-15,Le Sueur,0,142,0,1,4.6,0.0,32,0.291
+2020-07-16,Le Sueur,2,144,0,1,3.9,0.0,27,0.231
 2020-03-27,Lincoln,1,1,0,0,1.0,0.0,1,
 2020-03-28,Lincoln,0,1,0,0,0.5,0.0,1,
 2020-03-29,Lincoln,0,1,0,0,0.3,0.0,1,
@@ -4195,6 +4234,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Lincoln,6,25,0,0,2.1,0.0,15,
 2020-07-14,Lincoln,7,32,0,0,3.1,0.0,22,
 2020-07-15,Lincoln,1,33,0,0,3.1,0.0,22,
+2020-07-16,Lincoln,4,37,0,0,3.7,0.0,26,
 2020-03-31,Lyon,1,1,0,0,1.0,0.0,1,
 2020-04-01,Lyon,1,2,0,0,1.0,0.0,2,
 2020-04-02,Lyon,1,3,0,0,1.0,0.0,3,
@@ -4302,6 +4342,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Lyon,7,351,0,2,5.0,0.0,35,0.111
 2020-07-14,Lyon,8,359,0,2,4.6,0.0,32,0.098
 2020-07-15,Lyon,5,364,0,2,5.3,0.0,37,0.113
+2020-07-16,Lyon,5,369,0,2,5.4,0.0,38,0.115
 2020-04-04,McLeod,1,1,0,0,1.0,0.0,1,
 2020-04-05,McLeod,0,1,0,0,0.5,0.0,1,
 2020-04-06,McLeod,0,1,0,0,0.3,0.0,1,
@@ -4405,6 +4446,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,McLeod,0,103,0,0,1.6,0.0,11,0.12
 2020-07-14,McLeod,-1,102,0,0,1.4,0.0,10,0.109
 2020-07-15,McLeod,0,102,0,0,1.1,0.0,8,0.085
+2020-07-16,McLeod,2,104,0,0,1.1,0.0,8,0.083
 2020-03-26,Mahnomen,1,1,0,0,1.0,0.0,1,
 2020-03-27,Mahnomen,0,1,0,0,0.5,0.0,1,
 2020-03-28,Mahnomen,0,1,0,0,0.3,0.0,1,
@@ -4517,6 +4559,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Mahnomen,0,13,0,1,0.6,0.0,4,
 2020-07-14,Mahnomen,0,13,0,1,0.4,0.0,3,
 2020-07-15,Mahnomen,0,13,0,1,0.4,0.0,3,
+2020-07-16,Mahnomen,2,15,0,1,0.7,0.0,5,
 2020-04-19,Marshall,1,1,0,0,1.0,0.0,1,
 2020-04-20,Marshall,0,1,0,0,0.5,0.0,1,
 2020-04-21,Marshall,0,1,0,0,0.3,0.0,1,
@@ -4605,6 +4648,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Marshall,0,16,0,0,0.6,0.0,4,
 2020-07-14,Marshall,0,16,0,0,0.6,0.0,4,
 2020-07-15,Marshall,1,17,0,0,0.7,0.0,5,
+2020-07-16,Marshall,0,17,0,0,0.7,0.0,5,
 2020-03-18,Martin,2,2,0,0,2.0,0.0,2,
 2020-03-19,Martin,1,3,0,0,1.5,0.0,3,
 2020-03-20,Martin,1,4,0,0,1.3,0.0,4,
@@ -4723,6 +4767,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Martin,0,175,0,5,0.9,0.0,6,0.036
 2020-07-14,Martin,1,176,0,5,0.7,0.0,5,0.029
 2020-07-15,Martin,4,180,0,5,1.3,0.0,9,0.053
+2020-07-16,Martin,-1,179,0,5,1.1,0.0,8,0.047
 2020-03-30,Meeker,1,1,0,0,1.0,0.0,1,
 2020-03-31,Meeker,0,1,0,0,0.5,0.0,1,
 2020-04-01,Meeker,0,1,0,0,0.3,0.0,1,
@@ -4831,6 +4876,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Meeker,2,66,0,1,0.7,0.0,5,
 2020-07-14,Meeker,0,66,0,1,0.7,0.0,5,
 2020-07-15,Meeker,1,67,0,1,0.9,0.0,6,
+2020-07-16,Meeker,1,68,0,1,0.9,0.0,6,
 2020-04-16,Mille Lacs,1,1,0,0,1.0,0.0,1,
 2020-04-17,Mille Lacs,0,1,0,0,0.5,0.0,1,
 2020-04-18,Mille Lacs,0,1,0,0,0.3,0.0,1,
@@ -4922,6 +4968,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Mille Lacs,1,41,0,2,1.0,0.0,7,
 2020-07-14,Mille Lacs,-1,40,0,2,0.9,0.0,6,
 2020-07-15,Mille Lacs,1,41,0,2,1.0,0.0,7,
+2020-07-16,Mille Lacs,0,41,0,2,1.0,0.0,7,
 2020-04-19,Morrison,1,1,0,0,1.0,0.0,1,
 2020-04-20,Morrison,0,1,0,0,0.5,0.0,1,
 2020-04-21,Morrison,0,1,0,0,0.3,0.0,1,
@@ -5010,6 +5057,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Morrison,3,69,0,1,1.4,0.0,10,
 2020-07-14,Morrison,1,70,0,1,1.3,0.0,9,
 2020-07-15,Morrison,0,70,0,1,1.3,0.0,9,
+2020-07-16,Morrison,0,70,0,1,1.3,0.0,9,
 2020-03-19,Mower,1,1,0,0,1.0,0.0,1,
 2020-03-21,Mower,2,3,0,0,1.5,0.0,3,
 2020-03-22,Mower,3,6,0,0,2.0,0.0,6,
@@ -5126,6 +5174,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Mower,4,987,0,2,5.0,0.0,35,0.037
 2020-07-14,Mower,3,990,0,2,4.3,0.0,30,0.031
 2020-07-15,Mower,4,994,0,2,4.1,0.0,29,0.03
+2020-07-16,Mower,2,996,0,2,3.4,0.0,24,0.025
 2020-04-06,Murray,1,1,0,0,1.0,0.0,1,
 2020-04-07,Murray,0,1,0,0,0.5,0.0,1,
 2020-04-08,Murray,0,1,0,0,0.3,0.0,1,
@@ -5227,6 +5276,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Murray,1,83,0,0,2.7,0.0,19,
 2020-07-14,Murray,2,85,0,0,2.9,0.0,20,
 2020-07-15,Murray,1,86,0,0,2.9,0.0,20,
+2020-07-16,Murray,3,89,0,0,3.1,0.0,22,
 2020-03-18,Nicollet,2,2,0,0,2.0,0.0,2,
 2020-03-21,Nicollet,1,3,0,0,1.5,0.0,3,
 2020-03-25,Nicollet,0,3,0,0,1.0,0.0,3,
@@ -5342,6 +5392,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Nicollet,1,207,0,12,5.4,0.0,38,0.225
 2020-07-14,Nicollet,5,212,0,12,5.6,0.0,39,0.225
 2020-07-15,Nicollet,3,215,1,13,5.6,0.14,39,0.222
+2020-07-16,Nicollet,4,219,0,13,4.6,0.14,32,0.171
 2020-04-10,Nobles,1,1,0,0,1.0,0.0,1,
 2020-04-11,Nobles,0,1,0,0,0.5,0.0,1,
 2020-04-12,Nobles,0,1,0,0,0.3,0.0,1,
@@ -5439,6 +5490,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Nobles,6,1694,0,6,3.6,0.0,25,0.015
 2020-07-14,Nobles,3,1697,0,6,3.6,0.0,25,0.015
 2020-07-15,Nobles,1,1698,0,6,3.7,0.0,26,0.016
+2020-07-16,Nobles,0,1698,0,6,3.1,0.0,22,0.013
 2020-04-15,Norman,1,1,0,0,1.0,0.0,1,
 2020-04-16,Norman,0,1,0,0,0.5,0.0,1,
 2020-04-17,Norman,1,2,0,0,0.7,0.0,2,
@@ -5531,6 +5583,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Norman,0,21,0,0,0.1,0.0,1,
 2020-07-14,Norman,0,21,0,0,0.1,0.0,1,
 2020-07-15,Norman,0,21,0,0,0.0,0.0,0,
+2020-07-16,Norman,1,22,0,0,0.1,0.0,1,
 2020-03-11,Olmsted,1,1,0,0,1.0,0.0,1,
 2020-03-15,Olmsted,1,2,0,0,1.0,0.0,2,
 2020-03-16,Olmsted,1,3,0,0,1.0,0.0,3,
@@ -5654,6 +5707,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Olmsted,26,1302,0,20,24.7,0.71,173,0.153
 2020-07-14,Olmsted,17,1319,0,20,24.6,0.71,172,0.15
 2020-07-15,Olmsted,17,1336,0,20,24.0,0.43,168,0.144
+2020-07-16,Olmsted,17,1353,0,20,22.4,0.43,157,0.131
 2020-03-29,Otter Tail,1,1,0,0,1.0,0.0,1,
 2020-03-30,Otter Tail,0,1,0,0,0.5,0.0,1,
 2020-03-31,Otter Tail,0,1,0,0,0.3,0.0,1,
@@ -5763,6 +5817,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Otter Tail,1,115,0,1,2.9,0.0,20,0.211
 2020-07-14,Otter Tail,6,121,0,1,3.0,0.0,21,0.21
 2020-07-15,Otter Tail,2,123,0,1,3.3,0.0,23,0.23
+2020-07-16,Otter Tail,0,123,0,1,3.0,0.0,21,0.206
 2020-04-21,Pennington,1,1,0,0,1.0,0.0,1,
 2020-04-22,Pennington,0,1,0,0,0.5,0.0,1,
 2020-04-23,Pennington,0,1,0,0,0.3,0.0,1,
@@ -5849,6 +5904,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Pennington,0,54,0,0,0.4,0.0,3,
 2020-07-14,Pennington,0,54,0,0,0.3,0.0,2,
 2020-07-15,Pennington,1,55,0,0,0.4,0.0,3,
+2020-07-16,Pennington,0,55,0,0,0.3,0.0,2,
 2020-04-08,Pine,1,1,0,0,1.0,0.0,1,
 2020-04-09,Pine,1,2,0,0,1.0,0.0,2,
 2020-04-10,Pine,1,3,0,0,1.0,0.0,3,
@@ -5948,6 +6004,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Pine,2,115,0,0,1.4,0.0,10,0.095
 2020-07-14,Pine,-1,114,0,0,1.0,0.0,7,0.065
 2020-07-15,Pine,1,115,0,0,0.7,0.0,5,0.045
+2020-07-16,Pine,0,115,0,0,0.6,0.0,4,0.036
 2020-04-05,Pipestone,1,1,0,0,1.0,0.0,1,
 2020-04-06,Pipestone,0,1,0,0,0.5,0.0,1,
 2020-04-07,Pipestone,0,1,0,0,0.3,0.0,1,
@@ -6050,6 +6107,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Pipestone,12,86,0,4,4.9,0.29,34,
 2020-07-14,Pipestone,4,90,0,4,4.4,0.29,31,
 2020-07-15,Pipestone,7,97,1,5,4.9,0.43,34,
+2020-07-16,Pipestone,6,103,0,5,5.3,0.14,37,0.561
 2020-04-04,Polk,1,1,0,0,1.0,0.0,1,
 2020-04-05,Polk,0,1,0,0,0.5,0.0,1,
 2020-04-06,Polk,0,1,0,0,0.3,0.0,1,
@@ -6153,6 +6211,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Polk,0,90,0,3,1.1,0.14,8,
 2020-07-14,Polk,-1,89,0,3,1.0,0.14,7,
 2020-07-15,Polk,1,90,0,3,0.9,0.14,6,
+2020-07-16,Polk,1,91,0,3,0.7,0.0,5,
 2020-05-05,Pope,1,1,0,0,1.0,0.0,1,
 2020-05-06,Pope,0,1,0,0,0.5,0.0,1,
 2020-05-07,Pope,2,3,0,0,1.0,0.0,3,
@@ -6225,6 +6284,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Pope,0,13,0,0,0.4,0.0,3,
 2020-07-14,Pope,1,14,0,0,0.3,0.0,2,
 2020-07-15,Pope,5,19,0,0,1.0,0.0,7,
+2020-07-16,Pope,0,19,0,0,1.0,0.0,7,
 2020-03-06,Ramsey,1,1,0,0,1.0,0.0,1,
 2020-03-11,Ramsey,1,2,0,0,1.0,0.0,2,
 2020-03-12,Ramsey,1,3,0,0,1.0,0.0,3,
@@ -6351,6 +6411,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Ramsey,57,5313,1,234,57.4,0.86,402,0.082
 2020-07-14,Ramsey,44,5357,3,237,56.3,1.14,394,0.079
 2020-07-15,Ramsey,40,5397,1,238,54.9,1.14,384,0.077
+2020-07-16,Ramsey,73,5470,8,246,57.7,2.29,404,0.08
 2020-04-12,Red Lake,1,1,0,0,1.0,0.0,1,
 2020-04-13,Red Lake,0,1,0,0,0.5,0.0,1,
 2020-04-14,Red Lake,0,1,0,0,0.3,0.0,1,
@@ -6446,6 +6507,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Red Lake,1,5,0,0,0.3,0.0,2,
 2020-07-14,Red Lake,0,5,0,0,0.1,0.0,1,
 2020-07-15,Red Lake,0,5,0,0,0.1,0.0,1,
+2020-07-16,Red Lake,0,5,0,0,0.1,0.0,1,
 2020-04-06,Redwood,1,1,0,0,1.0,0.0,1,
 2020-04-07,Redwood,0,1,0,0,0.5,0.0,1,
 2020-04-08,Redwood,0,1,0,0,0.3,0.0,1,
@@ -6547,6 +6609,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Redwood,0,25,0,0,1.0,0.0,7,
 2020-07-14,Redwood,0,25,0,0,0.9,0.0,6,
 2020-07-15,Redwood,0,25,0,0,0.7,0.0,5,
+2020-07-16,Redwood,1,26,0,0,0.7,0.0,5,
 2020-03-14,Renville,1,1,0,0,1.0,0.0,1,
 2020-03-25,Renville,0,1,0,0,0.5,0.0,1,
 2020-03-26,Renville,0,1,0,0,0.3,0.0,1,
@@ -6661,6 +6724,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Renville,0,37,1,3,0.3,0.14,2,
 2020-07-14,Renville,0,37,0,3,0.1,0.14,1,
 2020-07-15,Renville,0,37,0,3,0.1,0.14,1,
+2020-07-16,Renville,0,37,0,3,0.0,0.14,0,
 2020-03-19,Rice,1,1,0,0,1.0,0.0,1,
 2020-03-23,Rice,1,2,0,0,1.0,0.0,2,
 2020-03-25,Rice,0,2,0,0,0.7,0.0,2,
@@ -6776,6 +6840,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Rice,8,892,0,8,6.9,0.14,48,0.057
 2020-07-14,Rice,3,895,0,8,6.7,0.0,47,0.055
 2020-07-15,Rice,3,898,0,8,5.6,0.0,39,0.045
+2020-07-16,Rice,7,905,0,8,6.1,0.0,43,0.05
 2020-04-12,Rock,2,2,0,0,2.0,0.0,2,
 2020-04-13,Rock,0,2,0,0,1.0,0.0,2,
 2020-04-14,Rock,0,2,0,0,0.7,0.0,2,
@@ -6871,6 +6936,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Rock,1,35,0,0,0.6,0.0,4,
 2020-07-14,Rock,0,35,0,0,0.6,0.0,4,
 2020-07-15,Rock,0,35,0,0,0.6,0.0,4,
+2020-07-16,Rock,1,36,0,0,0.7,0.0,5,
 2020-04-07,Roseau,1,1,0,0,1.0,0.0,1,
 2020-04-08,Roseau,0,1,0,0,0.5,0.0,1,
 2020-04-09,Roseau,0,1,0,0,0.3,0.0,1,
@@ -6971,6 +7037,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Roseau,0,28,0,0,1.7,0.0,12,
 2020-07-14,Roseau,2,30,0,0,1.9,0.0,13,
 2020-07-15,Roseau,-1,29,0,0,1.7,0.0,12,
+2020-07-16,Roseau,1,30,0,0,1.6,0.0,11,
 2020-03-21,St. Louis,1,1,0,0,1.0,0.0,1,
 2020-03-23,St. Louis,1,2,0,0,1.0,0.0,2,
 2020-03-25,St. Louis,1,3,0,0,1.0,0.0,3,
@@ -7086,6 +7153,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,St. Louis,3,238,0,16,8.3,0.14,58,0.322
 2020-07-14,St. Louis,3,241,0,16,6.4,0.14,45,0.23
 2020-07-15,St. Louis,8,249,0,16,7.3,0.0,51,0.258
+2020-07-16,St. Louis,5,254,0,16,7.3,0.0,51,0.251
 2020-03-18,Scott,1,1,0,0,1.0,0.0,1,
 2020-03-20,Scott,1,2,0,0,1.0,0.0,2,
 2020-03-22,Scott,1,3,0,0,1.0,0.0,3,
@@ -7203,6 +7271,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Scott,18,899,0,4,23.6,0.0,165,0.225
 2020-07-14,Scott,24,923,0,4,23.0,0.0,161,0.211
 2020-07-15,Scott,30,953,0,4,24.3,0.0,170,0.217
+2020-07-16,Scott,12,965,3,7,23.1,0.43,162,0.202
 2020-03-23,Sherburne,1,1,0,0,1.0,0.0,1,
 2020-03-25,Sherburne,0,1,0,0,0.5,0.0,1,
 2020-03-26,Sherburne,0,1,0,0,0.3,0.0,1,
@@ -7317,6 +7386,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Sherburne,3,372,0,5,7.9,0.0,55,0.174
 2020-07-14,Sherburne,-1,371,0,5,6.6,0.0,46,0.142
 2020-07-15,Sherburne,4,375,0,5,6.9,0.0,48,0.147
+2020-07-16,Sherburne,25,400,0,5,8.6,0.0,60,0.176
 2020-03-26,Sibley,1,1,0,0,1.0,0.0,1,
 2020-03-27,Sibley,0,1,0,0,0.5,0.0,1,
 2020-03-28,Sibley,0,1,0,0,0.3,0.0,1,
@@ -7429,6 +7499,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Sibley,-1,57,0,2,0.4,0.0,3,
 2020-07-14,Sibley,1,58,0,2,0.6,0.0,4,
 2020-07-15,Sibley,1,59,0,2,0.6,0.0,4,
+2020-07-16,Sibley,3,62,0,2,0.9,0.0,6,
 2020-03-12,Stearns,1,1,0,0,1.0,0.0,1,
 2020-03-13,Stearns,1,2,0,0,1.0,0.0,2,
 2020-03-14,Stearns,1,3,0,0,1.0,0.0,3,
@@ -7547,6 +7618,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Stearns,13,2536,0,19,23.6,0.0,165,0.07
 2020-07-14,Stearns,13,2549,0,19,19.3,0.0,135,0.056
 2020-07-15,Stearns,26,2575,0,19,20.9,0.0,146,0.06
+2020-07-16,Stearns,21,2596,0,19,21.1,0.0,148,0.06
 2020-03-21,Steele,2,2,0,0,2.0,0.0,2,
 2020-03-22,Steele,1,3,0,0,1.5,0.0,3,
 2020-03-23,Steele,2,5,0,0,1.7,0.0,5,
@@ -7663,6 +7735,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Steele,3,250,0,1,2.7,0.0,19,0.082
 2020-07-14,Steele,16,266,0,1,4.1,0.0,29,0.122
 2020-07-15,Steele,0,266,0,1,3.9,0.0,27,0.113
+2020-07-16,Steele,8,274,0,1,4.9,0.0,34,0.142
 2020-05-07,Stevens,1,1,0,0,1.0,0.0,1,
 2020-05-08,Stevens,0,1,0,0,0.5,0.0,1,
 2020-05-09,Stevens,0,1,0,0,0.3,0.0,1,
@@ -7733,6 +7806,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Stevens,0,11,0,0,1.0,0.0,7,
 2020-07-14,Stevens,0,11,0,0,0.9,0.0,6,
 2020-07-15,Stevens,0,11,0,0,0.7,0.0,5,
+2020-07-16,Stevens,2,13,0,0,0.7,0.0,5,
 2020-04-07,Swift,1,1,0,0,1.0,0.0,1,
 2020-04-08,Swift,0,1,0,0,0.5,0.0,1,
 2020-04-09,Swift,0,1,0,0,0.3,0.0,1,
@@ -7833,6 +7907,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Swift,2,35,0,1,1.9,0.0,13,
 2020-07-14,Swift,0,35,0,1,1.9,0.0,13,
 2020-07-15,Swift,4,39,0,1,2.3,0.0,16,
+2020-07-16,Swift,1,40,0,1,2.1,0.0,15,
 2020-04-12,Todd,2,2,0,0,2.0,0.0,2,
 2020-04-13,Todd,0,2,0,0,1.0,0.0,2,
 2020-04-14,Todd,0,2,0,0,0.7,0.0,2,
@@ -7928,6 +8003,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Todd,1,404,0,2,0.4,0.0,3,0.007
 2020-07-14,Todd,0,404,0,2,0.4,0.0,3,0.007
 2020-07-15,Todd,1,405,0,2,0.4,0.0,3,0.007
+2020-07-16,Todd,0,405,0,2,0.4,0.0,3,0.007
 2020-03-31,Traverse,2,2,0,0,2.0,0.0,2,
 2020-04-01,Traverse,0,2,0,0,1.0,0.0,2,
 2020-04-02,Traverse,0,2,0,0,0.7,0.0,2,
@@ -8035,6 +8111,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Traverse,1,7,0,0,0.1,0.0,1,
 2020-07-14,Traverse,1,8,0,0,0.4,0.0,3,
 2020-07-15,Traverse,0,8,0,0,0.3,0.0,2,
+2020-07-16,Traverse,0,8,0,0,0.3,0.0,2,
 2020-03-21,Wabasha,1,1,0,0,1.0,0.0,1,
 2020-03-25,Wabasha,2,3,0,0,1.5,0.0,3,
 2020-03-26,Wabasha,1,4,0,0,1.3,0.0,4,
@@ -8149,6 +8226,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Wabasha,4,43,0,0,1.4,0.0,10,
 2020-07-14,Wabasha,1,44,0,0,1.6,0.0,11,
 2020-07-15,Wabasha,2,46,0,0,1.6,0.0,11,
+2020-07-16,Wabasha,3,49,0,0,2.1,0.0,15,
 2020-04-28,Wadena,1,1,0,0,1.0,0.0,1,
 2020-04-29,Wadena,0,1,0,0,0.5,0.0,1,
 2020-04-30,Wadena,0,1,0,0,0.3,0.0,1,
@@ -8228,6 +8306,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Wadena,1,18,0,0,0.4,0.0,3,
 2020-07-14,Wadena,0,18,0,0,0.4,0.0,3,
 2020-07-15,Wadena,0,18,0,0,0.4,0.0,3,
+2020-07-16,Wadena,0,18,0,0,0.3,0.0,2,
 2020-03-15,Waseca,1,1,0,0,1.0,0.0,1,
 2020-03-25,Waseca,0,1,0,0,0.5,0.0,1,
 2020-03-26,Waseca,1,2,0,0,0.7,0.0,2,
@@ -8342,6 +8421,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Waseca,2,80,0,0,1.7,0.0,12,
 2020-07-14,Waseca,0,80,0,0,1.3,0.0,9,
 2020-07-15,Waseca,2,82,0,0,1.6,0.0,11,
+2020-07-16,Waseca,1,83,0,0,1.4,0.0,10,
 2020-03-15,Washington,1,1,0,0,1.0,0.0,1,
 2020-03-16,Washington,1,2,0,0,1.0,0.0,2,
 2020-03-18,Washington,1,3,0,0,1.0,0.0,3,
@@ -8461,6 +8541,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Washington,23,1306,0,41,27.4,0.14,192,0.172
 2020-07-14,Washington,18,1324,0,41,26.7,0.14,187,0.164
 2020-07-15,Washington,20,1344,0,41,25.9,0.14,181,0.156
+2020-07-16,Washington,25,1369,-1,40,25.6,0.0,179,0.15
 2020-03-30,Watonwan,1,1,0,0,1.0,0.0,1,
 2020-03-31,Watonwan,0,1,0,0,0.5,0.0,1,
 2020-04-01,Watonwan,1,2,0,0,0.7,0.0,2,
@@ -8569,6 +8650,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Watonwan,1,272,0,0,5.4,0.0,38,0.162
 2020-07-14,Watonwan,0,272,0,0,4.9,0.0,34,0.143
 2020-07-15,Watonwan,1,273,0,0,4.7,0.0,33,0.138
+2020-07-16,Watonwan,-1,272,0,0,4.3,0.0,30,0.124
 2020-03-26,Wilkin,1,1,0,0,1.0,0.0,1,
 2020-03-27,Wilkin,0,1,0,0,0.5,0.0,1,
 2020-03-28,Wilkin,0,1,0,0,0.3,0.0,1,
@@ -8681,6 +8763,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Wilkin,0,22,0,3,0.1,0.0,1,
 2020-07-14,Wilkin,1,23,0,3,0.3,0.0,2,
 2020-07-15,Wilkin,0,23,0,3,0.3,0.0,2,
+2020-07-16,Wilkin,0,23,0,3,0.3,0.0,2,
 2020-03-25,Winona,2,2,0,0,2.0,0.0,2,
 2020-03-26,Winona,2,4,0,0,2.0,0.0,4,
 2020-03-27,Winona,0,4,0,0,1.3,0.0,4,
@@ -8794,6 +8877,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Winona,6,150,0,15,3.6,0.0,25,0.2
 2020-07-14,Winona,3,153,0,15,3.4,0.0,24,0.186
 2020-07-15,Winona,3,156,0,15,3.6,0.0,25,0.191
+2020-07-16,Winona,7,163,1,16,4.3,0.14,30,0.226
 2020-03-13,Wright,1,1,0,0,1.0,0.0,1,
 2020-03-18,Wright,1,2,0,0,1.0,0.0,2,
 2020-03-21,Wright,1,3,0,0,1.0,0.0,3,
@@ -8910,6 +8994,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Wright,8,547,0,5,10.3,0.0,72,0.152
 2020-07-14,Wright,8,555,0,5,10.3,0.0,72,0.149
 2020-07-15,Wright,9,564,0,5,10.3,0.0,72,0.146
+2020-07-16,Wright,12,576,-1,4,10.1,-0.14,71,0.141
 2020-04-01,Yellow Medicine,1,1,0,0,1.0,0.0,1,
 2020-04-02,Yellow Medicine,0,1,0,0,0.5,0.0,1,
 2020-04-03,Yellow Medicine,0,1,0,0,0.3,0.0,1,
@@ -9016,6 +9101,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Yellow Medicine,0,31,0,0,0.1,0.0,1,
 2020-07-14,Yellow Medicine,1,32,0,0,0.3,0.0,2,
 2020-07-15,Yellow Medicine,2,34,0,0,0.6,0.0,4,
+2020-07-16,Yellow Medicine,1,35,0,0,0.6,0.0,4,
 2020-05-13,Cook,0,0,0,0,0.0,0.0,0,
 2020-05-14,Cook,0,0,0,0,0.0,0.0,0,
 2020-05-15,Cook,0,0,0,0,0.0,0.0,0,
@@ -9080,3 +9166,4 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths,cases_ro
 2020-07-13,Cook,0,1,0,0,0.0,0.0,0,
 2020-07-14,Cook,0,1,0,0,0.0,0.0,0,
 2020-07-15,Cook,0,1,0,0,0.0,0.0,0,
+2020-07-16,Cook,0,1,0,0,0.0,0.0,0,
