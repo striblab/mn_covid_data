@@ -108,7 +108,7 @@ A zip-level, weekly count of positive COVID-19 tests, compiled from data sent to
 |zip|string|5-digit ZCTA identifer|
 |cases_total|integer|Number of cumulative positive COVID-19 tests. -1 indicates that between 1 and 5 cases have been confirmed here. (MDH redacts the specific number of cases if it is between 1 and 5, but does report 0s for ZCTAs with no confirmed cases.)|
 |cases_per_1k|float|Number of cumulative positive COVID-19 tests per 1,000 people in population|
-|cases_weekly_change|integer|Change in cases_total since last data update. Not calculated unless both current week and previous week have cases_total values that are not between 1 and 5 cases. (See note about redactions above.)|
+|cases_weekly_change|float|Change in cases_total since last data update. Not calculated unless both current week and previous week have cases_total values that are not between 1 and 5 cases. (See note about redactions above.)|
 |pop_total|integer|2018 ACS 5-year population estimate for this ZCTA|
 |pct_nonwhite|float|Percentage of pop_total that has a race other than white and did not report Hispanic ethnicity, according to 2018 ACS 5-year estimate|
 |pct_black|float|Percentage of pop total that is Black, according to 2018 ACS 5-year estimate|
