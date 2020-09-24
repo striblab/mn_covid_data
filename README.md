@@ -57,8 +57,8 @@ A snapshot of the latest cumulative statewide data from the Minnesota Department
 |last_update
 |total_completed_tests|integer|Number of cumulative COVID-19 tests completed statewide, positive and negative|
 |total_hospitalized|integer|Number of cumulative hospitalized people statewide A single person who was hospitalized twice would could as two hospitalizations, according to MDH.|
-|currently_hospitalized|integer|Number of people currently hospitalized|
-|currently_in_icu|integer|Number of people currently in ICU care|
+|currently_hospitalized|integer|Number of people currently hospitalized. Not reported by MDH starting Sept. 24, 2020|
+|currently_in_icu|integer|Number of people currently in ICU care. Not reported by MDH starting Sept. 24, 2020|
 |last_update|datetime|Timestamp when scraper last ran|
 
 
@@ -72,6 +72,8 @@ A statewide daily county of positive COVID-19 tests, compiled by daily scraping 
 
 **UPDATE July 3, 2020:** The Minnesota Department of Health will not be updating its situation page on July 4. As a result, our records will not reflect updates on that day. MDH will still collect data for July 4, but will release that data on July 5. Some data may get backdated to July 4, but July 5's data may appear inflated as a result.
 
+**UPDATE Sept. 24, 2020:** The Minnesota Department of Health has stopped reporting the number of patients currently hospitalized and in ICU. They also added two fields to track new hospital and ICU admissions by admission date.
+
 
 |Column name|Format|Description|
 |---|---|---|
@@ -83,9 +85,13 @@ A statewide daily county of positive COVID-19 tests, compiled by daily scraping 
 |cases_removed|integer|Cases removed on this day by MDH. This plus daily_cases_newly_reported should add up to daily change. Cases may be removed becase of false positives or because a patient is later determined to have been not a Minnesota resident, for example. Starts May 18, 2020.|
 |cases_sample_date|integer|Number of new positive COVID-19 tests reported statewide on this date, calculated by the date each test speciman was given, not the date it was reported by MDH.|
 |cases_total_sample_date|integer|Number of cumulative positive COVID-19 tests statewide by this date, calculated by the date each test speciman was given, not the date it was reported by MDH.|
+|new_hosp_admissions|integer|Number of patients admitted to a hospital for the first time on this date. Earlier dates are often updated as tests come back for patients admitted in days past.|
+|new_hosp_admissions_rolling|float|7-day floating average (mean) of new_hosp_admissions|
+|new_icu_admissions|integer|Number of patients admitted to an ICU for the first time on this date. Earlier dates are often updated as tests come back for patients admitted in days past. This is a subset of new_hosp_admissions, meaning these patients are also counted in new_hosp_admissions.|
+|new_icu_admissions_rolling|float|7-day floating average (mean) of new_icu_admissions|
 |total_hospitalized|integer|Number of cumulative hospitalized people statewide by this date. A single person who was hospitalized twice would could as two hospitalizations, according to MDH.|
-|currently_hospitalized|integer|Number of people currently hospitalized on this date|
-|currently_in_icu|integer|Number of people currently in ICU care on this date|
+|currently_hospitalized|integer|Number of people currently hospitalized on this date. Not reported by MDH starting Sept. 24, 2020|
+|currently_in_icu|integer|Number of people currently in ICU care on this date. Not reported by MDH starting Sept. 24, 2020|
 |hosp_total_daily_change|integer|Change in total_hospitalized since previous day|
 |hosp_total_daily_rolling|float|7-day floating average (mean) of hosp_total_daily_change|
 |total_statewide_deaths|integer|Number of deaths statewide by this date|
