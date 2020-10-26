@@ -233,6 +233,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Aitkin,6,165,0,2
 2020-10-24,Aitkin,12,177,0,2
 2020-10-25,Aitkin,2,179,0,2
+2020-10-26,Aitkin,0,179,0,2
 2020-03-06,Anoka,0,0,0,0
 2020-03-07,Anoka,0,0,0,0
 2020-03-08,Anoka,0,0,0,0
@@ -467,6 +468,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Anoka,90,8414,0,150
 2020-10-24,Anoka,138,8552,0,150
 2020-10-25,Anoka,109,8661,0,150
+2020-10-26,Anoka,211,8872,0,150
 2020-03-06,Becker,0,0,0,0
 2020-03-07,Becker,0,0,0,0
 2020-03-08,Becker,0,0,0,0
@@ -701,6 +703,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Becker,19,538,0,3
 2020-10-24,Becker,13,551,0,3
 2020-10-25,Becker,10,561,1,4
+2020-10-26,Becker,14,575,0,4
 2020-03-06,Beltrami,0,0,0,0
 2020-03-07,Beltrami,0,0,0,0
 2020-03-08,Beltrami,0,0,0,0
@@ -935,6 +938,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Beltrami,32,871,0,7
 2020-10-24,Beltrami,5,876,0,7
 2020-10-25,Beltrami,15,891,0,7
+2020-10-26,Beltrami,10,901,0,7
 2020-03-06,Benton,0,0,0,0
 2020-03-07,Benton,0,0,0,0
 2020-03-08,Benton,0,0,0,0
@@ -1169,6 +1173,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Benton,28,910,0,7
 2020-10-24,Benton,13,923,1,8
 2020-10-25,Benton,17,940,1,9
+2020-10-26,Benton,10,950,0,9
 2020-03-06,Big Stone,0,0,0,0
 2020-03-07,Big Stone,0,0,0,0
 2020-03-08,Big Stone,0,0,0,0
@@ -1403,6 +1408,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Big Stone,1,132,0,0
 2020-10-24,Big Stone,4,136,0,0
 2020-10-25,Big Stone,2,138,0,0
+2020-10-26,Big Stone,3,141,0,0
 2020-03-06,Blue Earth,0,0,0,0
 2020-03-07,Blue Earth,0,0,0,0
 2020-03-08,Blue Earth,0,0,0,0
@@ -1637,6 +1643,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Blue Earth,17,2020,0,7
 2020-10-24,Blue Earth,16,2036,0,7
 2020-10-25,Blue Earth,7,2043,0,7
+2020-10-26,Blue Earth,2,2045,0,7
 2020-03-06,Brown,0,0,0,0
 2020-03-07,Brown,0,0,0,0
 2020-03-08,Brown,0,0,0,0
@@ -1871,6 +1878,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Brown,5,316,0,3
 2020-10-24,Brown,4,320,0,3
 2020-10-25,Brown,1,321,0,3
+2020-10-26,Brown,3,324,0,3
 2020-03-06,Carlton,0,0,0,0
 2020-03-07,Carlton,0,0,0,0
 2020-03-08,Carlton,0,0,0,0
@@ -2105,6 +2113,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Carlton,8,411,0,1
 2020-10-24,Carlton,12,423,0,1
 2020-10-25,Carlton,11,434,0,1
+2020-10-26,Carlton,10,444,0,1
 2020-03-06,Carver,0,0,0,0
 2020-03-07,Carver,0,0,0,0
 2020-03-08,Carver,1,1,0,0
@@ -2339,6 +2348,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Carver,19,1743,0,7
 2020-10-24,Carver,24,1767,0,7
 2020-10-25,Carver,22,1789,0,7
+2020-10-26,Carver,31,1820,0,7
 2020-03-06,Cass,0,0,0,0
 2020-03-07,Cass,0,0,0,0
 2020-03-08,Cass,0,0,0,0
@@ -2573,6 +2583,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Cass,13,357,0,5
 2020-10-24,Cass,9,366,0,5
 2020-10-25,Cass,4,370,0,5
+2020-10-26,Cass,7,377,0,5
 2020-03-06,Chippewa,0,0,0,0
 2020-03-07,Chippewa,0,0,0,0
 2020-03-08,Chippewa,0,0,0,0
@@ -2807,6 +2818,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Chippewa,9,424,0,3
 2020-10-24,Chippewa,5,429,0,3
 2020-10-25,Chippewa,6,435,0,3
+2020-10-26,Chippewa,9,444,0,3
 2020-03-06,Chisago,0,0,0,0
 2020-03-07,Chisago,0,0,0,0
 2020-03-08,Chisago,0,0,0,0
@@ -3041,6 +3053,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Chisago,30,950,0,2
 2020-10-24,Chisago,31,981,0,2
 2020-10-25,Chisago,21,1002,0,2
+2020-10-26,Chisago,38,1040,0,2
 2020-03-06,Clay,0,0,0,0
 2020-03-07,Clay,0,0,0,0
 2020-03-08,Clay,0,0,0,0
@@ -3275,6 +3288,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Clay,61,2214,0,43
 2020-10-24,Clay,66,2280,0,43
 2020-10-25,Clay,17,2297,0,43
+2020-10-26,Clay,31,2328,0,43
 2020-03-06,Clearwater,0,0,0,0
 2020-03-07,Clearwater,0,0,0,0
 2020-03-08,Clearwater,0,0,0,0
@@ -3509,6 +3523,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Clearwater,13,101,0,0
 2020-10-24,Clearwater,4,105,0,0
 2020-10-25,Clearwater,6,111,0,0
+2020-10-26,Clearwater,3,114,0,0
 2020-03-06,Cook,0,0,0,0
 2020-03-07,Cook,0,0,0,0
 2020-03-08,Cook,0,0,0,0
@@ -3743,6 +3758,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Cook,1,12,0,0
 2020-10-24,Cook,1,13,0,0
 2020-10-25,Cook,3,16,0,0
+2020-10-26,Cook,1,17,0,0
 2020-03-06,Cottonwood,0,0,0,0
 2020-03-07,Cottonwood,0,0,0,0
 2020-03-08,Cottonwood,0,0,0,0
@@ -3977,6 +3993,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Cottonwood,7,272,0,0
 2020-10-24,Cottonwood,4,276,0,0
 2020-10-25,Cottonwood,4,280,0,0
+2020-10-26,Cottonwood,2,282,0,0
 2020-03-06,Crow Wing,0,0,0,0
 2020-03-07,Crow Wing,0,0,0,0
 2020-03-08,Crow Wing,0,0,0,0
@@ -4211,6 +4228,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Crow Wing,33,980,0,21
 2020-10-24,Crow Wing,10,990,0,21
 2020-10-25,Crow Wing,20,1010,1,22
+2020-10-26,Crow Wing,25,1035,0,22
 2020-03-06,Dakota,0,0,0,0
 2020-03-07,Dakota,0,0,0,0
 2020-03-08,Dakota,0,0,0,0
@@ -4445,6 +4463,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Dakota,74,9541,1,137
 2020-10-24,Dakota,145,9686,0,137
 2020-10-25,Dakota,137,9823,1,138
+2020-10-26,Dakota,74,9897,0,138
 2020-03-06,Dodge,0,0,0,0
 2020-03-07,Dodge,0,0,0,0
 2020-03-08,Dodge,0,0,0,0
@@ -4679,6 +4698,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Dodge,7,386,0,0
 2020-10-24,Dodge,6,392,0,0
 2020-10-25,Dodge,2,394,0,0
+2020-10-26,Dodge,0,394,0,0
 2020-03-06,Douglas,0,0,0,0
 2020-03-07,Douglas,0,0,0,0
 2020-03-08,Douglas,0,0,0,0
@@ -4913,6 +4933,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Douglas,15,647,0,3
 2020-10-24,Douglas,25,672,0,3
 2020-10-25,Douglas,24,696,0,3
+2020-10-26,Douglas,12,708,0,3
 2020-03-06,Faribault,0,0,0,0
 2020-03-07,Faribault,0,0,0,0
 2020-03-08,Faribault,0,0,0,0
@@ -5147,6 +5168,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Faribault,0,221,0,0
 2020-10-24,Faribault,7,228,0,0
 2020-10-25,Faribault,3,231,0,0
+2020-10-26,Faribault,4,235,0,0
 2020-03-06,Fillmore,0,0,0,0
 2020-03-07,Fillmore,0,0,0,0
 2020-03-08,Fillmore,0,0,0,0
@@ -5381,6 +5403,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Fillmore,5,250,0,0
 2020-10-24,Fillmore,7,257,0,0
 2020-10-25,Fillmore,3,260,0,0
+2020-10-26,Fillmore,4,264,0,0
 2020-03-06,Freeborn,0,0,0,0
 2020-03-07,Freeborn,0,0,0,0
 2020-03-08,Freeborn,0,0,0,0
@@ -5615,6 +5638,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Freeborn,10,659,0,4
 2020-10-24,Freeborn,7,666,0,4
 2020-10-25,Freeborn,3,669,0,4
+2020-10-26,Freeborn,15,684,0,4
 2020-03-06,Goodhue,0,0,0,0
 2020-03-07,Goodhue,0,0,0,0
 2020-03-08,Goodhue,0,0,0,0
@@ -5849,6 +5873,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Goodhue,16,558,0,11
 2020-10-24,Goodhue,15,573,0,11
 2020-10-25,Goodhue,12,585,0,11
+2020-10-26,Goodhue,12,597,0,11
 2020-03-06,Grant,0,0,0,0
 2020-03-07,Grant,0,0,0,0
 2020-03-08,Grant,0,0,0,0
@@ -6083,6 +6108,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Grant,0,92,0,4
 2020-10-24,Grant,4,96,0,4
 2020-10-25,Grant,2,98,0,4
+2020-10-26,Grant,1,99,0,4
 2020-03-06,Hennepin,0,0,0,0
 2020-03-07,Hennepin,0,0,0,0
 2020-03-08,Hennepin,0,0,0,0
@@ -6317,6 +6343,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Hennepin,286,33310,1,981
 2020-10-24,Hennepin,409,33719,3,984
 2020-10-25,Hennepin,314,34033,7,991
+2020-10-26,Hennepin,257,34290,0,991
 2020-03-06,Houston,0,0,0,0
 2020-03-07,Houston,0,0,0,0
 2020-03-08,Houston,0,0,0,0
@@ -6551,6 +6578,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Houston,9,195,0,1
 2020-10-24,Houston,2,197,0,1
 2020-10-25,Houston,7,204,0,1
+2020-10-26,Houston,2,206,0,1
 2020-03-06,Hubbard,0,0,0,0
 2020-03-07,Hubbard,0,0,0,0
 2020-03-08,Hubbard,0,0,0,0
@@ -6785,6 +6813,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Hubbard,23,369,0,2
 2020-10-24,Hubbard,10,379,0,2
 2020-10-25,Hubbard,11,390,0,2
+2020-10-26,Hubbard,6,396,0,2
 2020-03-06,Isanti,0,0,0,0
 2020-03-07,Isanti,0,0,0,0
 2020-03-08,Isanti,0,0,0,0
@@ -7019,6 +7048,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Isanti,8,519,0,5
 2020-10-24,Isanti,8,527,0,5
 2020-10-25,Isanti,14,541,0,5
+2020-10-26,Isanti,20,561,0,5
 2020-03-06,Itasca,0,0,0,0
 2020-03-07,Itasca,0,0,0,0
 2020-03-08,Itasca,0,0,0,0
@@ -7253,6 +7283,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Itasca,10,706,0,17
 2020-10-24,Itasca,13,719,0,17
 2020-10-25,Itasca,8,727,0,17
+2020-10-26,Itasca,9,736,0,17
 2020-03-06,Jackson,0,0,0,0
 2020-03-07,Jackson,0,0,0,0
 2020-03-08,Jackson,0,0,0,0
@@ -7487,6 +7518,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Jackson,3,207,0,1
 2020-10-24,Jackson,1,208,0,1
 2020-10-25,Jackson,2,210,0,1
+2020-10-26,Jackson,5,215,0,1
 2020-03-06,Kanabec,0,0,0,0
 2020-03-07,Kanabec,0,0,0,0
 2020-03-08,Kanabec,0,0,0,0
@@ -7721,6 +7753,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Kanabec,1,195,0,10
 2020-10-24,Kanabec,10,205,0,10
 2020-10-25,Kanabec,4,209,0,10
+2020-10-26,Kanabec,6,215,0,10
 2020-03-06,Kandiyohi,0,0,0,0
 2020-03-07,Kandiyohi,0,0,0,0
 2020-03-08,Kandiyohi,0,0,0,0
@@ -7955,6 +7988,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Kandiyohi,11,1650,0,5
 2020-10-24,Kandiyohi,8,1658,0,5
 2020-10-25,Kandiyohi,12,1670,0,5
+2020-10-26,Kandiyohi,35,1705,0,5
 2020-03-06,Kittson,0,0,0,0
 2020-03-07,Kittson,0,0,0,0
 2020-03-08,Kittson,0,0,0,0
@@ -8189,6 +8223,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Kittson,1,38,0,0
 2020-10-24,Kittson,0,38,0,0
 2020-10-25,Kittson,2,40,0,0
+2020-10-26,Kittson,2,42,0,0
 2020-03-06,Koochiching,0,0,0,0
 2020-03-07,Koochiching,0,0,0,0
 2020-03-08,Koochiching,0,0,0,0
@@ -8423,6 +8458,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Koochiching,1,165,0,4
 2020-10-24,Koochiching,2,167,0,4
 2020-10-25,Koochiching,2,169,0,4
+2020-10-26,Koochiching,1,170,0,4
 2020-03-06,Lac qui Parle,0,0,0,0
 2020-03-07,Lac qui Parle,0,0,0,0
 2020-03-08,Lac qui Parle,0,0,0,0
@@ -8657,6 +8693,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Lac qui Parle,1,131,0,3
 2020-10-24,Lac qui Parle,1,132,0,3
 2020-10-25,Lac qui Parle,1,133,0,3
+2020-10-26,Lac qui Parle,7,140,0,3
 2020-03-06,Lake,0,0,0,0
 2020-03-07,Lake,0,0,0,0
 2020-03-08,Lake,0,0,0,0
@@ -8891,6 +8928,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Lake,4,115,0,0
 2020-10-24,Lake,3,118,0,0
 2020-10-25,Lake,1,119,0,0
+2020-10-26,Lake,4,123,0,0
 2020-03-06,Lake of the Woods,0,0,0,0
 2020-03-07,Lake of the Woods,0,0,0,0
 2020-03-08,Lake of the Woods,0,0,0,0
@@ -9125,6 +9163,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Lake of the Woods,1,44,0,1
 2020-10-24,Lake of the Woods,0,44,0,1
 2020-10-25,Lake of the Woods,0,44,0,1
+2020-10-26,Lake of the Woods,0,44,0,1
 2020-03-06,Le Sueur,0,0,0,0
 2020-03-07,Le Sueur,0,0,0,0
 2020-03-08,Le Sueur,0,0,0,0
@@ -9359,6 +9398,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Le Sueur,16,614,0,5
 2020-10-24,Le Sueur,6,620,0,5
 2020-10-25,Le Sueur,3,623,0,5
+2020-10-26,Le Sueur,8,631,0,5
 2020-03-06,Lincoln,0,0,0,0
 2020-03-07,Lincoln,0,0,0,0
 2020-03-08,Lincoln,0,0,0,0
@@ -9593,6 +9633,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Lincoln,4,176,0,0
 2020-10-24,Lincoln,6,182,0,0
 2020-10-25,Lincoln,0,182,0,0
+2020-10-26,Lincoln,2,184,0,0
 2020-03-06,Lyon,0,0,0,0
 2020-03-07,Lyon,0,0,0,0
 2020-03-08,Lyon,0,0,0,0
@@ -9827,6 +9868,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Lyon,10,951,0,6
 2020-10-24,Lyon,8,959,0,6
 2020-10-25,Lyon,6,965,0,6
+2020-10-26,Lyon,11,976,0,6
 2020-03-06,Mahnomen,0,0,0,0
 2020-03-07,Mahnomen,0,0,0,0
 2020-03-08,Mahnomen,0,0,0,0
@@ -10061,6 +10103,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Mahnomen,2,106,1,2
 2020-10-24,Mahnomen,4,110,0,2
 2020-10-25,Mahnomen,3,113,0,2
+2020-10-26,Mahnomen,3,116,0,2
 2020-03-06,Marshall,0,0,0,0
 2020-03-07,Marshall,0,0,0,0
 2020-03-08,Marshall,0,0,0,0
@@ -10295,6 +10338,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Marshall,6,103,0,1
 2020-10-24,Marshall,7,110,0,1
 2020-10-25,Marshall,11,121,0,1
+2020-10-26,Marshall,5,126,0,1
 2020-03-06,Martin,0,0,0,0
 2020-03-07,Martin,0,0,0,0
 2020-03-08,Martin,0,0,0,0
@@ -10529,6 +10573,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Martin,4,606,0,16
 2020-10-24,Martin,5,611,1,17
 2020-10-25,Martin,2,613,0,17
+2020-10-26,Martin,0,613,0,17
 2020-03-06,McLeod,0,0,0,0
 2020-03-07,McLeod,0,0,0,0
 2020-03-08,McLeod,0,0,0,0
@@ -10763,6 +10808,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,McLeod,4,580,0,4
 2020-10-24,McLeod,8,588,0,4
 2020-10-25,McLeod,9,597,0,4
+2020-10-26,McLeod,5,602,0,4
 2020-03-06,Meeker,0,0,0,0
 2020-03-07,Meeker,0,0,0,0
 2020-03-08,Meeker,0,0,0,0
@@ -10997,6 +11043,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Meeker,4,322,0,3
 2020-10-24,Meeker,3,325,0,3
 2020-10-25,Meeker,1,326,0,3
+2020-10-26,Meeker,5,331,0,3
 2020-03-06,Mille Lacs,0,0,0,0
 2020-03-07,Mille Lacs,0,0,0,0
 2020-03-08,Mille Lacs,0,0,0,0
@@ -11231,6 +11278,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Mille Lacs,11,387,1,14
 2020-10-24,Mille Lacs,14,401,1,15
 2020-10-25,Mille Lacs,5,406,0,15
+2020-10-26,Mille Lacs,7,413,0,15
 2020-03-06,Morrison,0,0,0,0
 2020-03-07,Morrison,0,0,0,0
 2020-03-08,Morrison,0,0,0,0
@@ -11465,6 +11513,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Morrison,37,694,0,8
 2020-10-24,Morrison,18,712,1,9
 2020-10-25,Morrison,14,726,0,9
+2020-10-26,Morrison,16,742,0,9
 2020-03-06,Mower,0,0,0,0
 2020-03-07,Mower,0,0,0,0
 2020-03-08,Mower,0,0,0,0
@@ -11699,6 +11748,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Mower,4,1503,0,15
 2020-10-24,Mower,5,1508,0,15
 2020-10-25,Mower,9,1517,2,17
+2020-10-26,Mower,12,1529,0,17
 2020-03-06,Murray,0,0,0,0
 2020-03-07,Murray,0,0,0,0
 2020-03-08,Murray,0,0,0,0
@@ -11933,6 +11983,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Murray,8,272,0,3
 2020-10-24,Murray,3,275,0,3
 2020-10-25,Murray,3,278,0,3
+2020-10-26,Murray,5,283,0,3
 2020-03-06,Nicollet,0,0,0,0
 2020-03-07,Nicollet,0,0,0,0
 2020-03-08,Nicollet,0,0,0,0
@@ -12167,6 +12218,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Nicollet,14,714,0,17
 2020-10-24,Nicollet,4,718,0,17
 2020-10-25,Nicollet,12,730,0,17
+2020-10-26,Nicollet,9,739,0,17
 2020-03-06,Nobles,0,0,0,0
 2020-03-07,Nobles,0,0,0,0
 2020-03-08,Nobles,0,0,0,0
@@ -12401,6 +12453,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Nobles,24,2219,0,16
 2020-10-24,Nobles,38,2257,0,16
 2020-10-25,Nobles,11,2268,0,16
+2020-10-26,Nobles,8,2276,0,16
 2020-03-06,Norman,0,0,0,0
 2020-03-07,Norman,0,0,0,0
 2020-03-08,Norman,0,0,0,0
@@ -12635,6 +12688,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Norman,3,108,0,0
 2020-10-24,Norman,6,114,0,0
 2020-10-25,Norman,1,115,0,0
+2020-10-26,Norman,2,117,0,0
 2020-03-06,Olmsted,0,0,0,0
 2020-03-07,Olmsted,0,0,0,0
 2020-03-08,Olmsted,0,0,0,0
@@ -12869,6 +12923,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Olmsted,24,3183,0,30
 2020-10-24,Olmsted,49,3232,0,30
 2020-10-25,Olmsted,20,3252,0,30
+2020-10-26,Olmsted,25,3277,0,30
 2020-03-06,Otter Tail,0,0,0,0
 2020-03-07,Otter Tail,0,0,0,0
 2020-03-08,Otter Tail,0,0,0,0
@@ -13103,6 +13158,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Otter Tail,29,818,1,7
 2020-10-24,Otter Tail,33,851,0,7
 2020-10-25,Otter Tail,11,862,0,7
+2020-10-26,Otter Tail,11,873,0,7
 2020-03-06,Pennington,0,0,0,0
 2020-03-07,Pennington,0,0,0,0
 2020-03-08,Pennington,0,0,0,0
@@ -13337,6 +13393,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Pennington,3,174,0,1
 2020-10-24,Pennington,11,185,0,1
 2020-10-25,Pennington,6,191,0,1
+2020-10-26,Pennington,4,195,0,1
 2020-03-06,Pine,0,0,0,0
 2020-03-07,Pine,0,0,0,0
 2020-03-08,Pine,0,0,0,0
@@ -13571,6 +13628,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Pine,4,523,0,0
 2020-10-24,Pine,8,531,0,0
 2020-10-25,Pine,12,543,0,0
+2020-10-26,Pine,6,549,0,0
 2020-03-06,Pipestone,0,0,0,0
 2020-03-07,Pipestone,0,0,0,0
 2020-03-08,Pipestone,0,0,0,0
@@ -13805,6 +13863,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Pipestone,6,342,1,17
 2020-10-24,Pipestone,3,345,0,17
 2020-10-25,Pipestone,5,350,0,17
+2020-10-26,Pipestone,1,351,0,17
 2020-03-06,Polk,0,0,0,0
 2020-03-07,Polk,0,0,0,0
 2020-03-08,Polk,0,0,0,0
@@ -14039,6 +14098,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Polk,39,596,0,4
 2020-10-24,Polk,22,618,0,4
 2020-10-25,Polk,25,643,0,4
+2020-10-26,Polk,30,673,0,4
 2020-03-06,Pope,0,0,0,0
 2020-03-07,Pope,0,0,0,0
 2020-03-08,Pope,0,0,0,0
@@ -14273,6 +14333,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Pope,2,154,0,0
 2020-10-24,Pope,1,155,0,0
 2020-10-25,Pope,1,156,0,0
+2020-10-26,Pope,5,161,0,0
 2020-03-06,Ramsey,1,1,0,0
 2020-03-07,Ramsey,0,1,0,0
 2020-03-08,Ramsey,0,1,0,0
@@ -14507,6 +14568,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Ramsey,173,13782,2,357
 2020-10-24,Ramsey,127,13909,1,358
 2020-10-25,Ramsey,164,14073,2,360
+2020-10-26,Ramsey,95,14168,1,361
 2020-03-06,Red Lake,0,0,0,0
 2020-03-07,Red Lake,0,0,0,0
 2020-03-08,Red Lake,0,0,0,0
@@ -14741,6 +14803,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Red Lake,3,69,0,2
 2020-10-24,Red Lake,8,77,0,2
 2020-10-25,Red Lake,1,78,0,2
+2020-10-26,Red Lake,0,78,0,2
 2020-03-06,Redwood,0,0,0,0
 2020-03-07,Redwood,0,0,0,0
 2020-03-08,Redwood,0,0,0,0
@@ -14975,6 +15038,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Redwood,9,269,0,11
 2020-10-24,Redwood,2,271,0,11
 2020-10-25,Redwood,4,275,0,11
+2020-10-26,Redwood,6,281,0,11
 2020-03-06,Renville,0,0,0,0
 2020-03-07,Renville,0,0,0,0
 2020-03-08,Renville,0,0,0,0
@@ -15209,6 +15273,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Renville,6,243,0,11
 2020-10-24,Renville,7,250,0,11
 2020-10-25,Renville,2,252,0,11
+2020-10-26,Renville,4,256,0,11
 2020-03-06,Rice,0,0,0,0
 2020-03-07,Rice,0,0,0,0
 2020-03-08,Rice,0,0,0,0
@@ -15443,6 +15508,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Rice,13,1605,0,9
 2020-10-24,Rice,23,1628,0,9
 2020-10-25,Rice,5,1633,1,10
+2020-10-26,Rice,15,1648,0,10
 2020-03-06,Rock,0,0,0,0
 2020-03-07,Rock,0,0,0,0
 2020-03-08,Rock,0,0,0,0
@@ -15677,6 +15743,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Rock,4,315,1,4
 2020-10-24,Rock,9,324,0,4
 2020-10-25,Rock,4,328,0,4
+2020-10-26,Rock,12,340,0,4
 2020-03-06,Roseau,0,0,0,0
 2020-03-07,Roseau,0,0,0,0
 2020-03-08,Roseau,0,0,0,0
@@ -15911,6 +15978,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Roseau,12,228,0,0
 2020-10-24,Roseau,31,259,0,0
 2020-10-25,Roseau,5,264,0,0
+2020-10-26,Roseau,1,265,0,0
 2020-03-06,Scott,0,0,0,0
 2020-03-07,Scott,0,0,0,0
 2020-03-08,Scott,0,0,0,0
@@ -16145,6 +16213,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Scott,28,3293,0,34
 2020-10-24,Scott,55,3348,0,34
 2020-10-25,Scott,34,3382,0,34
+2020-10-26,Scott,47,3429,0,34
 2020-03-06,Sherburne,0,0,0,0
 2020-03-07,Sherburne,0,0,0,0
 2020-03-08,Sherburne,0,0,0,0
@@ -16379,6 +16448,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Sherburne,28,1634,0,21
 2020-10-24,Sherburne,31,1665,0,21
 2020-10-25,Sherburne,20,1685,1,22
+2020-10-26,Sherburne,26,1711,0,22
 2020-03-06,Sibley,0,0,0,0
 2020-03-07,Sibley,0,0,0,0
 2020-03-08,Sibley,0,0,0,0
@@ -16613,6 +16683,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Sibley,1,243,0,3
 2020-10-24,Sibley,6,249,0,3
 2020-10-25,Sibley,3,252,0,3
+2020-10-26,Sibley,2,254,0,3
 2020-03-06,Stearns,0,0,0,0
 2020-03-07,Stearns,0,0,0,0
 2020-03-08,Stearns,0,0,0,0
@@ -16847,6 +16918,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Stearns,119,5665,0,41
 2020-10-24,Stearns,78,5743,2,43
 2020-10-25,Stearns,82,5825,0,43
+2020-10-26,Stearns,58,5883,1,44
 2020-03-06,Steele,0,0,0,0
 2020-03-07,Steele,0,0,0,0
 2020-03-08,Steele,0,0,0,0
@@ -17081,6 +17153,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Steele,7,741,1,3
 2020-10-24,Steele,15,756,0,3
 2020-10-25,Steele,3,759,0,3
+2020-10-26,Steele,2,761,0,3
 2020-03-06,Stevens,0,0,0,0
 2020-03-07,Stevens,0,0,0,0
 2020-03-08,Stevens,0,0,0,0
@@ -17315,6 +17388,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Stevens,3,177,0,1
 2020-10-24,Stevens,4,181,0,1
 2020-10-25,Stevens,1,182,0,1
+2020-10-26,Stevens,2,184,0,1
 2020-03-06,St. Louis,0,0,0,0
 2020-03-07,St. Louis,0,0,0,0
 2020-03-08,St. Louis,0,0,0,0
@@ -17549,6 +17623,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,St. Louis,53,2850,0,65
 2020-10-24,St. Louis,62,2912,2,67
 2020-10-25,St. Louis,53,2965,2,69
+2020-10-26,St. Louis,61,3026,0,69
 2020-03-06,Swift,0,0,0,0
 2020-03-07,Swift,0,0,0,0
 2020-03-08,Swift,0,0,0,0
@@ -17783,6 +17858,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Swift,1,194,0,1
 2020-10-24,Swift,7,201,0,1
 2020-10-25,Swift,0,201,0,1
+2020-10-26,Swift,6,207,0,1
 2020-03-06,Todd,0,0,0,0
 2020-03-07,Todd,0,0,0,0
 2020-03-08,Todd,0,0,0,0
@@ -18017,6 +18093,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Todd,17,769,0,5
 2020-10-24,Todd,17,786,0,5
 2020-10-25,Todd,19,805,0,5
+2020-10-26,Todd,21,826,1,6
 2020-03-06,Traverse,0,0,0,0
 2020-03-07,Traverse,0,0,0,0
 2020-03-08,Traverse,0,0,0,0
@@ -18251,6 +18328,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Traverse,0,54,0,0
 2020-10-24,Traverse,1,55,0,0
 2020-10-25,Traverse,1,56,0,0
+2020-10-26,Traverse,1,57,0,0
 2020-03-06,Wabasha,0,0,0,0
 2020-03-07,Wabasha,0,0,0,0
 2020-03-08,Wabasha,0,0,0,0
@@ -18485,6 +18563,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Wabasha,16,359,0,0
 2020-10-24,Wabasha,11,370,0,0
 2020-10-25,Wabasha,8,378,0,0
+2020-10-26,Wabasha,6,384,0,0
 2020-03-06,Wadena,0,0,0,0
 2020-03-07,Wadena,0,0,0,0
 2020-03-08,Wadena,0,0,0,0
@@ -18719,6 +18798,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Wadena,7,215,1,3
 2020-10-24,Wadena,9,224,0,3
 2020-10-25,Wadena,7,231,0,3
+2020-10-26,Wadena,8,239,0,3
 2020-03-06,Waseca,0,0,0,0
 2020-03-07,Waseca,0,0,0,0
 2020-03-08,Waseca,0,0,0,0
@@ -18953,6 +19033,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Waseca,3,922,0,9
 2020-10-24,Waseca,5,927,0,9
 2020-10-25,Waseca,1,928,0,9
+2020-10-26,Waseca,1,929,0,9
 2020-03-06,Washington,0,0,0,0
 2020-03-07,Washington,0,0,0,0
 2020-03-08,Washington,0,0,0,0
@@ -19187,6 +19268,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Washington,70,5469,2,70
 2020-10-24,Washington,361,5830,1,71
 2020-10-25,Washington,102,5932,1,72
+2020-10-26,Washington,54,5986,0,72
 2020-03-06,Watonwan,0,0,0,0
 2020-03-07,Watonwan,0,0,0,0
 2020-03-08,Watonwan,0,0,0,0
@@ -19421,6 +19503,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Watonwan,4,576,0,4
 2020-10-24,Watonwan,2,578,0,4
 2020-10-25,Watonwan,0,578,0,4
+2020-10-26,Watonwan,1,579,0,4
 2020-03-06,Wilkin,0,0,0,0
 2020-03-07,Wilkin,0,0,0,0
 2020-03-08,Wilkin,0,0,0,0
@@ -19655,6 +19738,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Wilkin,2,129,0,4
 2020-10-24,Wilkin,4,133,0,4
 2020-10-25,Wilkin,1,134,0,4
+2020-10-26,Wilkin,3,137,0,4
 2020-03-06,Winona,0,0,0,0
 2020-03-07,Winona,0,0,0,0
 2020-03-08,Winona,0,0,0,0
@@ -19889,6 +19973,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Winona,11,1236,0,18
 2020-10-24,Winona,7,1243,1,19
 2020-10-25,Winona,7,1250,0,19
+2020-10-26,Winona,10,1260,0,19
 2020-03-06,Wright,0,0,0,0
 2020-03-07,Wright,0,0,0,0
 2020-03-08,Wright,0,0,0,0
@@ -20123,6 +20208,7 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Wright,35,2367,0,14
 2020-10-24,Wright,65,2432,0,14
 2020-10-25,Wright,51,2483,0,14
+2020-10-26,Wright,58,2541,1,15
 2020-03-06,Yellow Medicine,0,0,0,0
 2020-03-07,Yellow Medicine,0,0,0,0
 2020-03-08,Yellow Medicine,0,0,0,0
@@ -20357,3 +20443,4 @@ date,county,daily_cases,cumulative_cases,daily_deaths,cumulative_deaths
 2020-10-23,Yellow Medicine,4,275,0,5
 2020-10-24,Yellow Medicine,6,281,0,5
 2020-10-25,Yellow Medicine,2,283,1,6
+2020-10-26,Yellow Medicine,2,285,0,6
