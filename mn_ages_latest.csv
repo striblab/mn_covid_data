@@ -1,6 +1,6 @@
 age_group,cases,deaths,pct_of_cases,pct_of_deaths,pct_state_pop
 0-4 years,7101,1,2,-1,7
-5-9 years,9208,0,3,0,7
+5-9 years,9208,0,2,0,7
 10-14 years,13920,0,4,0,7
 15-19 years,29057,0,8,0,7
 20-29 years,71378,8,19,-1,14
@@ -8,8 +8,8 @@ age_group,cases,deaths,pct_of_cases,pct_of_deaths,pct_state_pop
 40-49 years,53208,56,14,1,14
 50-59 years,52701,184,14,4,14
 60-69 years,36205,457,10,11,9
-70-79 years,18765,874,5,21,5
-80-89 years,10806,1478,3,35,3
-90-99 years,4425,1046,1,25,-1
+70-79 years,18765,874,5,20,5
+80-89 years,10806,1478,3,34,3
+90-99 years,4425,1046,1,24,-1
 100+ years,246,67,-1,2,-1
 Unknown/missing,32,0,-1,0,N/A
