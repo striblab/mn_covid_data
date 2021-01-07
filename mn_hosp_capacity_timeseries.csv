@@ -1,4 +1,4 @@
-data_date,beds_surge_in_use,icu_in_use,non_icu_in_use,vents_in_use,vents_surge_in_use,BedsSurge,icu_cap,non_icu_cap,vent_cap,vent_cap_surge,hosp_icu_95pct+,hosp_icu_reporting,hosp_icu_in_system,hosp_non_icu_95pct+,hosp_non_icu_reporting,hosp_non_icu_in_system,hosp_pct_icu_reporting,hosp_pct_non_icu_reporting,icu_pct_cap,non_icu_pct_cap,vent_pct_cap
+data_date,beds_surge_in_use,icu_in_use,non_icu_in_use,vents_in_use,vents_surge_in_use,bed_cap_surge,icu_cap,non_icu_cap,vent_cap,vent_cap_surge,hosp_icu_95pct+,hosp_icu_reporting,hosp_icu_in_system,hosp_non_icu_95pct+,hosp_non_icu_reporting,hosp_non_icu_in_system,hosp_pct_icu_reporting,hosp_pct_non_icu_reporting,icu_pct_cap,non_icu_pct_cap,vent_pct_cap
 2020-03-01,0,403,2754,0,0,0,517,3258,0,0,,,,,,,,,0.779,0.845,
 2020-03-02,0,525,3437,0,0,0,646,4011,0,0,,,,,,,,,0.813,0.857,
 2020-03-03,0,899,5176,0,0,0,1059,5855,0,0,,,,,,,,,0.849,0.884,
