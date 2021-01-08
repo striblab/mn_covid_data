@@ -1,4 +1,4 @@
-data_date,beds_surge_in_use,icu_in_use,non_icu_in_use,vents_in_use,vents_surge_in_use,bed_cap_surge,icu_cap,non_icu_cap,vent_cap,vent_cap_surge,hosp_icu_95pct+,hosp_icu_reporting,hosp_icu_in_system,hosp_non_icu_95pct+,hosp_non_icu_reporting,hosp_non_icu_in_system,hosp_pct_icu_reporting,hosp_pct_non_icu_reporting,icu_pct_cap,non_icu_pct_cap,vent_pct_cap
+data_date,beds_surge_in_use,icu_in_use,non_icu_in_use,vents_in_use,vents_surge_in_use,BedsSurge,icu_cap,non_icu_cap,vent_cap,vent_cap_surge,hosp_icu_95pct+,hosp_icu_reporting,hosp_icu_in_system,hosp_non_icu_95pct+,hosp_non_icu_reporting,hosp_non_icu_in_system,hosp_pct_icu_reporting,hosp_pct_non_icu_reporting,icu_pct_cap,non_icu_pct_cap,vent_pct_cap
 2020-03-01,0,403,2754,0,0,0,517,3258,0,0,,,,,,,,,0.779,0.845,
 2020-03-02,0,525,3437,0,0,0,646,4011,0,0,,,,,,,,,0.813,0.857,
 2020-03-03,0,899,5176,0,0,0,1059,5855,0,0,,,,,,,,,0.849,0.884,
@@ -310,3 +310,4 @@ data_date,beds_surge_in_use,icu_in_use,non_icu_in_use,vents_in_use,vents_surge_i
 2021-01-04,2,1050,6549,419,2,956,1212,7416,1548,1506,23.0,93.0,,33.0,131.0,,,,0.866,0.883,0.271
 2021-01-05,6,1065,6595,409,2,956,1212,7416,1548,1506,28.0,93.0,,31.0,131.0,,,,0.879,0.889,0.264
 2021-01-06,4,1065,6595,433,2,956,1212,7416,1548,1506,27.0,93.0,,29.0,131.0,,,,0.879,0.889,0.28
+2021-01-07,4,1065,6595,444,2,956,1212,7416,1548,1506,26.0,93.0,,27.0,131.0,,,,0.879,0.889,0.287
