@@ -1,4 +1,0 @@
-data_date,allocated_total,allocated_pfizer,allocated_moderna,distributed_pfizer,distributed_moderna,providers_received_vac,distributed_total,allocated_total_weekly,allocated_pfizer_weekly,allocated_moderna_weekly,distributed_total_weekly,distributed_pfizer_weekly,distributed_moderna_weekly,providers_received_vac_weekly,pct_distributed
-2020-12-23,174750,79950,94800,79950,94800,0.0,174750,0,0,0,0,0,0,0,1.0
-2020-12-30,297350,169650,127700,169650,127700,277.0,297350,122600,89700,32900,122600,89700,32900,0,1.0
-2021-01-06,396350,235950,160400,235950,160400,299.0,396350,99000,66300,32700,99000,66300,32700,22,1.0
