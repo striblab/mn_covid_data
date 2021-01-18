@@ -2,10 +2,6 @@
 
 The Star Tribune has compiled daily data released by the Minnesota Department of Health on the COVID-19 outbreak in Minnesota. The health department generally released updated case information daily at 11 a.m. central time, but the scraper automatically updates these four spreadsheets hourly in case other updates or corrections are made to the site.
 
-MDH releases additional information in a daily media briefing, including the county where deaths occurred, which is compiled manually.
-
-Every effort has been made to keep the data accurate and up to date. However, MDH occasionally revises the location of a case after completing its investigation. In some instances in which a case was moved, the daily count may vary from what MDH originally reported. In other words, it is possible for the daily count for a county to be negative if a case was previously reported and then moved.
-
 ### Copyright and license
 The Star Tribune's COVID-19 spreadsheets posted here are open data, licensed under the Open Data Commons Open Database License (ODbL) by the Star Tribune.
 
@@ -24,26 +20,102 @@ You must also make it clear to anyone who requests access to the data that it is
 
 ### Fields in the data
 
-#### mn_positive_tests_by_county.csv
-
-A snapshot of the latest cumulative county-by-county data from the Minnesota Department of Health. Positive tests are sourced from https://www.health.state.mn.us/diseases/coronavirus/situation.html. Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting.
+#### mn_age_timeseries.csv
 
 |Column name|Format|Description|
 |---|---|---|
-|county_fips|string|Combination of state and county FIPS codes|
-|county_name|string|County name|
-|total_positive_tests|integer|Number of cumulative positive COVID-19 tests in county|
-|total_deaths|integer|Number of cumulative COVID-19 deaths in county|
-cases_per_1k|float|Number of cumulative positive COVID-19 tests per 1,000 people, according to 2018 ACS 5-year estimate|
-deaths_per_1k|float|Number of cumulative positive COVID-19 tests per 1,000 people, according to 2018 ACS 5-year estimate
-pop_2019|integer|County population, according to 2018 ACS 5-year estimate|
-|latitude|float|Latitude of county centroid|
-|longitude|float|Longitude of county centroid|
+|date|date|YYYY-MM-DD|
+|week_num|string|Combination of year an MMWR week, e.g. 2021-01, to differentiate years|
+|week_num_int|integer|MMWR week alone, without year.|
+|start_date|date|Week start date. YYYY-MM-DD|
+|end_date|date|Week end date. YYYY-MM-DD|
+|strib_age_group|string|The age range, in 5-year increments from age 0 to 20, then 10-year increments, then 90+|
+|age_group_cases|int|Weekly number of cases in this age group|
+|total_weekly_cases|int|Weekly number of cases in ALL age groups|
+|pct_cases|float|Percentage of total weekly cases that are in this age group|
+|age_group_deaths|int|Weekly number of deaths in this age group|
+|total_weekly_deaths|int|Weekly number of deaths in ALL age groups|
+|pct_deaths|float|Percentage of total weekly deaths that are in this age group|
 
+#### mn_county_timeseries_tall.csv
+
+A "tall" timeseries of each county's positive tests and deaths by a given date. Only counties with at least one positive test on a given date are included. Compiled by daily scraping of the [Minnesota Department of Health's coronavirus situation page](https://www.health.state.mn.us/diseases/coronavirus/situation.html) Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting.
+
+|Column name|Format|Description|
+|---|---|---|
+|date|date|YYYY-MM-DD|
+|county|string|County name|
+|daily_cases|integer|Number of new confirmed cases reported on this date|
+|daily_cases_per_1k|float|New confirmed cases per 1,000 county residents on this date|
+|cumulative_cases|integer|Number of cumulative positive COVID-19 tests by this date|
+|cases_per_1k|total|Number of total confirmed cases per 1,000 county residents|
+|daily_deaths|integer|Number of new COVID-19 deaths reported on this date|
+|cumulative_deaths|integer|Number of cumulative COVID-19 deaths by this date|
+|cases_rolling|float|7-day rolling average (mean) of daily_cases|
+|deaths_rolling|float|7-day rolling average (mean) of daily_deaths|
+|cases_weekly_chg|integer|Change in total cases from 7 days before|
+|cases_weekly_per_1k|float|Change in total cases from 7 days before per 1,000 county residents|
+|cases_weekly_pct_chg|float|Percent change in total cases from 7 days before|
+
+#### mn_county_timeseries_all_counties.csv
+
+This file now has significantly less detail then the "tall" timeseries, but includes all Minnesota counties and all dates, even before a first confirmed case. This spreadsheet is likely to be deprecated in the future, but the "all dates" aspect will be migrated to the more complete "tall" timeseries.
+
+|Column name|Format|Description|
+|---|---|---|
+|date|date|YYYY-MM-DD|
+|county|string|County name|
+|daily_cases|integer|Number of new positive COVID-19 tests reported on this date|
+|cumulative_cases|integer|Number of cumulative positive COVID-19 tests by this date|
+|daily_deaths|integer|Number of new COVID-19 deaths reported on this date|
+|cumulative_deaths|integer|Number of cumulative COVID-19 deaths by this date|
+
+
+#### mn_hosp_capacity_timeseries.csv
+This file tracks hospital capacity overall rather than by COVID status, and is provided via the MNTRAC system by the Minnesota Department of Health. Data in MNTRAC is submitted by Minnesota hospitals daily and reported the following day. [Original file available for download here](https://mn.gov/covid19/data/response-prep/response-capacity.jsp). Data is updated on weekdays, with separate data for Saturdays and Sundays released on Mondays.
+
+|Column name|Format|Description|
+|---|---|---|
+|data_date|date|Date reported to MDH, not date reported to public. YYYY-MM-DD|
+|beds_surge_in_use|integer|Number of beds not normally in hospital census and operation are currently being re-purposed to care for a patient|
+|icu_in_use|integer|Number of ICU beds currently in use|
+|non_icu_in_use|integer|Number of non-ICU beds currently in use.|
+|vents_in_use|integer|Number of ventilators currently in use|
+|vents_surge_in_use|integer|Number of "surge" ventilators currently in use|
+|bed_cap_surge|integer|Number of beds not normally in hospital census and operation that COULD be re-purposed to care for a patient with current constraints of staffing and space.|
+|icu_cap|integer|Number of staffed ICU beds total, including beds currently occupied.|
+|non_icu_cap|integer|Number of staffed non-ICU beds total, including beds currently occupied.|
+|vent_cap|integer|Number of ventilators total, including those in use.|
+|vent_cap_surge|integer|Number of "surge" ventilators total, including those in use.|
+|hosp_icu_95pct+|integer|Number of hospitals where ICU is at more than 95% capacity.|
+|hosp_icu_reporting|integer|Number of hospitals currently reporting their ICU data.|
+|hosp_non_icu_95pct+|integer|Number of hospitals where non-ICU is at more than 95% capacity.|
+|hosp_non_icu_reporting|integer|Number of hospitals currently reporting their non-ICU data.|
+|hosp_pct_icu_reporting|float|Percent of total number of hospitals expected to report ICU data that reported on this date.|
+|hosp_pct_non_icu_reporting|float|Percent of total number of hospitals expected to report non-ICU data that reported on this date.|
+|icu_pct_cap|float|Statewide percent of total ICU bed capacity currently occupied.|
+|non_icu_pct_cap|float|Statewide percent of total non-ICU bed capacity currently occupied.|
+|vent_pct_cap|float|Statewide percent of total ventilators currently in use.|
+
+
+#### mn_hosp_covid_timeseries.csv
+
+This file is provided via the federal TeleTracking system and is not directly comparable to the MNTrac capacity data listed above because of differences in reporting schedules. [Original file available for download here](https://mn.gov/covid19/data/response-prep/response-capacity.jsp). Data is updated on weekdays, with separate data for Saturdays and Sundays released on Mondays.
+
+|Column name|Format|Description|
+|---|---|---|
+|data_date|date|Date reported to MDH, not date reported to public. YYYY-MM-DD|
+|icu_covid|integer|Number of ICU beds occupied by COVID+ patients.|
+|icu_non_covid|integer|Number of non-ICU beds occupied by COVID+ patients.|
+|non_icu_covid|integer|Number of ICU beds occupied by non-COVID patients.|
+|non_icu_non_covid|integer|Number of non-ICU beds occupied by non-COVID patients.|
+|covid_total|integer|Total number of beds currently occupied by COVID+ patients. Sum of ICU and non-ICU.|
+|icu_total|integer|Total number of ICU beds occupied statewide. Please note that especially recent data may differ significantly from MNTrac data, as oulined above and is not directly comparable.|
+|beds_total|integer|Total number of non-ICU beds occupied statewide. Please note that especially recent data may differ significantly from MNTrac data, as oulined above and is not directly comparable.|
 
 #### mn_statewide_latest.csv
 
-A snapshot of the latest cumulative statewide data from the Minnesota Department of Health. Test and hospitalization data are sourced from https://www.health.state.mn.us/diseases/coronavirus/situation.html. Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting.
+A snapshot of the latest cumulative statewide data from the Minnesota Department of Health. Sourced from https://www.health.state.mn.us/diseases/coronavirus/situation.html. Deaths are now based on information from the Minnesota Department of Health, though some of the earliest data comes from Star Tribune reporting. Likely to be deprecated in the future.
 
 |Column name|Format|Description|
 |---|---|---|
@@ -57,8 +129,8 @@ A snapshot of the latest cumulative statewide data from the Minnesota Department
 |last_update
 |total_completed_tests|integer|Number of cumulative COVID-19 tests completed statewide, positive and negative|
 |total_hospitalized|integer|Number of cumulative hospitalized people statewide A single person who was hospitalized twice would could as two hospitalizations, according to MDH.|
-|currently_hospitalized|integer|Number of people currently hospitalized. Not reported by MDH starting Sept. 24, 2020|
-|currently_in_icu|integer|Number of people currently in ICU care. Not reported by MDH starting Sept. 24, 2020|
+|currently_hospitalized|integer|Number of people currently hospitalized. Reporting system changed by MDH starting Sept. 24, 2020. (See mn_hosp_covid_timeseries.csv)|
+|currently_in_icu|integer|Number of people currently in ICU care. Reporting system changed by MDH starting Sept. 24, 2020. (See mn_hosp_covid_timeseries.csv)|
 |last_update|datetime|Timestamp when scraper last ran|
 
 
@@ -84,16 +156,20 @@ A statewide daily county of positive COVID-19 tests, compiled by daily scraping 
 |cases_newly_reported|integer|"New" cases as reported by MDH. This plus cases_removed should add up to daily change. Starts May 18, 2020.|
 |cases_removed|integer|Cases removed on this day by MDH. This plus daily_cases_newly_reported should add up to daily change. Cases may be removed becase of false positives or because a patient is later determined to have been not a Minnesota resident, for example. Starts May 18, 2020.|
 |cases_sample_date|integer|Number of new positive COVID-19 tests reported statewide on this date, calculated by the date each test speciman was given, not the date it was reported by MDH.|
+|cases_sample_date_rolling|float|7-day floating average (mean) of cases_sample_date|
 |cases_total_sample_date|integer|Number of cumulative positive COVID-19 tests statewide by this date, calculated by the date each test speciman was given, not the date it was reported by MDH.|
 |new_hosp_admissions|integer|Number of patients admitted to a hospital for the first time on this date. Earlier dates are often updated as tests come back for patients admitted in days past.|
 |new_hosp_admissions_rolling|float|7-day floating average (mean) of new_hosp_admissions|
 |new_icu_admissions|integer|Number of patients admitted to an ICU for the first time on this date. Earlier dates are often updated as tests come back for patients admitted in days past. This is a subset of new_hosp_admissions, meaning these patients are also counted in new_hosp_admissions.|
 |new_icu_admissions_rolling|float|7-day floating average (mean) of new_icu_admissions|
 |total_hospitalized|integer|Number of cumulative hospitalized people statewide by this date. A single person who was hospitalized twice would could as two hospitalizations, according to MDH.|
-|currently_hospitalized|integer|Number of people currently hospitalized on this date. Not reported by MDH starting Sept. 24, 2020|
-|currently_in_icu|integer|Number of people currently in ICU care on this date. Not reported by MDH starting Sept. 24, 2020|
+|total_icu_admissions|integer|Number of cumulative people statewide admitted to the ICU by this date.|
+|currently_hospitalized|integer|Number of people currently hospitalized on this date. Reporting system changed by MDH starting Sept. 24, 2020. (See mn_hosp_covid_timeseries.csv)|
+|currently_in_icu|integer|Number of people currently in ICU care on this date. Reporting system changed by MDH starting Sept. 24, 2020. (See mn_hosp_covid_timeseries.csv)|
 |hosp_total_daily_change|integer|Change in total_hospitalized since previous day|
 |hosp_total_daily_rolling|float|7-day floating average (mean) of hosp_total_daily_change|
+|icu_total_daily_change|integer|Change in total_icu_admissions since previous day|
+|icu_total_daily_rolling|integer|7-day floating average (mean) of icu_total_daily_change|
 |total_statewide_deaths|integer|Number of deaths statewide by this date|
 |new_statewide_deaths|integer|Number of new deaths reported statewide on this date|
 |new_statewide_deaths_rolling|float|7-day floating average (mean) of new deaths|
@@ -103,6 +179,72 @@ A statewide daily county of positive COVID-19 tests, compiled by daily scraping 
 |new_completed_tests_rolling|float|7-day floating average (mean) of change in completed tests|
 |daily_pct_positive|float|cases_daily_change divided by new_completed_tests|
 |daily_pct_positive_rolling|float|7-day floating average (mean) of daily_pct_positive|
+
+#### mn_vaccine_admin_timeseries.csv
+
+A statewide look at vaccine administration and distribution. Raw data available on the state's [Vaccine Data dashboard](https://mn.gov/covid19/vaccine/data/index.jsp).
+
+|Column name|Format|Description|
+|---|---|---|
+|data_date|date|Date reported publicly. YYYY-MM-DD|
+|admin_total|integer|Total doses injected statewide.|
+|admin_pfizer|integer|Total doses of Pfizer vaccine injected statewide.|
+|admin_moderna|integer|Total doses of Pfizer vaccine injected statewide.|
+|admin_unknown|integer|Currently number of doses of unknown vaccine type injected statewide.|
+|admin_people_total|integer|Total number of people who have received at least one dose of any COVID vaccine.|
+|shipped_pfizer_total|integer|Total doses of Pfizer vaccine that have been shipped to providers in all programs, except federal facilities that are not required to report to Minnesota officials.|
+|shipped_moderna_total|integer|Total doses of Moderna vaccine that have been shipped to providers in all programs, except federal facilities that are not required to report to Minnesota officials.|
+|shipped_pfizer_mn_providers|integer|"Cumulative count of COVID-19 vaccine doses recorded as shipped to Minnesota providers in the Centers for Disease Control and Prevention’s (CDC) Vaccine Tracking System (VTrckS) since Dec. 13, 2020." Does not include pharmacy doses below or federal facilities that are not required to report to Minnesota officials.|
+|shipped_moderna_mn_providers|integer|Same as above, for Moderna.|
+|shipped_pfizer_cdc_ltc|integer|"Cumulative count of [Pfizer] COVID-19 vaccine doses that have been transferred out of the state allocation to the federal Pharmacy Partnership Program. These doses are shipped to three large pharmacy chains, CVS, Walgreens, and Thrifty White, who vaccinate staff and residents within long-term care facilities."|
+|shipped_moderna_cdc_ltc|integer|Same as above, for Moderna.|
+|providers|integer|Number of Minnesota provider sites in all programs, except federal facilities that are not required to report to Minnesota officials.|
+|shipped_combined|integer|Total doses of all vaccines that have been shipped to providers in all programs, except federal facilities that are not required to report to Minnesota officials.|
+|admin_total_daily|integer|Daily change in total doses of all vaccines injected statewide. Includes data from previous days that was not previously reported.|
+|admin_pfizer_daily|integer|Daily change in total doses of Pfizer vaccine injected statewide. Includes data from previous days that was not previously reported.|
+|admin_moderna_daily|integer|Daily change in total doses of Moderna vaccine injected statewide. Includes data from previous days that was not previously reported.|
+|admin_unknown_daily|integer|Daily change in total doses of unknown vaccine injected statewide.|
+|admin_people_total_daily|integer|Daily change in the total number of people statewide who have received at least one vaccine dose.|
+|shipped_combined_daily|integer|Daily change of shipped_combined. Includes data from previous days that was not previously reported. |
+|shipped_pfizer_daily|integer|Same as above, for Pfizer doses only.|
+|shipped_moderna_daily|integer|Same as above, for Moderna doses only.|
+|admin_total_weekly|integer|Change in admin_total in last 7 days.|
+|admin_pfizer_weekly|integer|Change in admin_pfizer in last 7 days.|
+|admin_moderna_weekly|integer|Change in admin_moderna in last 7 days.|
+|admin_unknown_weekly|integer|Change in admin_unknown in last 7 days.|
+|admin_people_total_weekly|integer|Change in admin_people_total in last 7 days.|
+|shipped_combined_weekly|integer|Change in shipped_combined in last 7 days.|
+|shipped_pfizer_weekly|integer|Change in shipped_pfizer_total in last 7 days.|
+|shipped_moderna_weekly|integer|Change in shipped_moderna_total in last 7 days.|
+|admin_doses_total_per_cap|float|Doses administered per Minnesota resident. Population: [2019 MN Population Center estimate](https://mn.gov/admin/demography/data-by-topic/population-data/our-estimates/)|
+|admin_people_total_per_cap|float|Percent of Minnesota residents who have received at least one dose of any vaccine. Population: [2019 MN Population Center estimate](https://mn.gov/admin/demography/data-by-topic/population-data/our-estimates/)|
+|pct_of_shipped_admin_pct|float|Percent of shipped_combined that has been injected.|
+|shipped_people_covered_pct|float|Total doses shipped per Minnesota resident, divided by 2 to account for full vaccine series. Population: [2019 MN Population Center estimate](https://mn.gov/admin/demography/data-by-topic/population-data/our-estimates/)|
+
+#### mn_vaccine_county_timeseries.csv
+
+County-by-county vaccine administration. Raw data available on the state's [Vaccine Data dashboard](https://mn.gov/covid19/vaccine/data/index.jsp).
+
+|Column name|Format|Description|
+|---|---|---|
+|county|string|County name|
+|data_date|date|Date reported publicly. YYYY-MM-DD|
+|people_admin_total|integer|Total number of people who have received at least one dose of any COVID vaccine.|
+|full_fips|string|U.S. Census FIPS code for this county, including state code.|
+|pop_2019|integer|Estimated 2019 population. Population: [2019 MN Population Center estimate](https://mn.gov/admin/demography/data-by-topic/population-data/our-estimates/)|
+|people_pct_pop|float|Percent of county residents who have received at least one dose of any vaccine.|
+
+#### mn_vaccine_gender_timeseries.csv
+
+Gender breakdown of vaccine administration.
+
+|Column name|Format|Description|
+|---|---|---|
+|data_date|date|Date reported publicly. YYYY-MM-DD|
+|gender|string|Options: Female, Male, Other, Unknown/Missing|
+|people_admin|integer|Total number of people who have received at least one dose of any COVID vaccine.|
+|pct_total|float|Percent of total people_admin this gender accounts for.|
+
 
 #### mn_zip_timeseries.csv
 
@@ -124,36 +266,9 @@ A zip-level, weekly count of positive COVID-19 tests, compiled from data sent to
 |largest_minority|string|The nonwhite group listed above with the highest share of the ZCTA's population, according to 2018 ACS 5-year estimate|
 |bool_metro|boolean|Whether ZCTA touches one of the 7 counties included in the Twin Cities metro area, according to the [Metropolitan Council](https://metrocouncil.org).|
 
-#### mn_county_timeseries_tall.csv
+### Deprecated files
+Several files have been replaced as reporting methods have changed and the files have been removed from the repository. Generally, similar data is now available in other files listed above.
 
-A "tall" timeseries of each county's positive tests and deaths by a given date. Only counties with at least one positive test are included. Compiled by daily scraping of the [Minnesota Department of Health's coronavirus situation page](https://www.health.state.mn.us/diseases/coronavirus/situation.html) Deaths are based on information from the Minnesota Department of Health and Star Tribune reporting.
-
-|Column name|Format|Description|
-|---|---|---|
-|date|date|YYYY-MM-DD|
-|county|string|County name|
-|daily_cases|integer|Number of new positive COVID-19 tests reported on this date|
-|cumulative_cases|integer|Number of cumulative positive COVID-19 tests by this date|
-|daily_deaths|integer|Number of new COVID-19 deaths reported on this date|
-|cumulative_deaths|integer|Number of cumulative COVID-19 deaths by this date|
-|cases_rolling|float|7-day rolling average (mean) of daily_cases|
-|deaths_rolling|float|7-day rolling average (mean) of daily_deaths|
-|cases_weekly_chg|integer|Change in total cases from 7 days before|
-|cases_weekly_pct_chg|float|Percent change in total cases from 7 days before|
-
-#### mn_county_timeseries_all_counties.csv
-
-Same fields and sources as the "tall" timeseries, except for the rolling averages and weekly change fields. This file includes all Minnesota counties and all dates, though since all counties now have at least one case this spreadsheet is likely to be deprecated in the future.
-
-#### mn_ages_latest.csv
-
-A snapshot of the latest cumulative statewide age data from the [Minnesota Department of Health's coronavirus situation page](https://www.health.state.mn.us/diseases/coronavirus/situation.html).
-
-|Column name|Format|Description|
-|---|---|---|
-age_group|string|Description of age group
-cases|integer|Number of total confirmed cases from this age group
-deaths|integer|Number of total deaths from this age group
-pct_of_cases|integer|Percentage of cumulative cases that are in this age group. -1 indicates a value of "<1%"|
-pct_of_deaths|integer|Percentage of cumulative deaths that are in this age group. -1 indicates a value of "<1%"|
-pct_state_pop|float|Percentage of state population in this age group|
+#### DEPRECATED: mn_ages_latest.csv
+#### DEPRECATED: mn_positive_tests_by_county.csv
+#### DEPRECATED: mn_death_ages_detailed_latest.csv
