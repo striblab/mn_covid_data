@@ -15,10 +15,10 @@ data_date,gender,people_admin,pct_total
 2021-01-16,Female,118686,0.682
 2021-01-16,Male,53515,0.307
 2021-01-16,Other,5,0.0
-2021-01-17,Female,126026,0.681
 2021-01-17,Unknown/Missing,1947,0.011
-2021-01-17,Other,5,0.0
+2021-01-17,Female,126026,0.681
 2021-01-17,Male,56965,0.308
+2021-01-17,Other,5,0.0
 2021-01-18,Female,132586,0.682
 2021-01-18,Unknown/Missing,1972,0.01
 2021-01-18,Other,5,0.0
@@ -27,7 +27,7 @@ data_date,gender,people_admin,pct_total
 2021-01-20,Unknown/Missing,1999,0.01
 2021-01-20,Other,5,0.0
 2021-01-20,Female,136955,0.682
-2021-01-21,Unknown/Missing,1999,0.01
-2021-01-21,Male,62982,0.309
-2021-01-21,Other,5,0.0
 2021-01-21,Female,138853,0.681
+2021-01-21,Unknown/Missing,1999,0.01
+2021-01-21,Other,5,0.0
+2021-01-21,Male,62982,0.309
