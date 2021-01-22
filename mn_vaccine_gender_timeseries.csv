@@ -27,7 +27,11 @@ data_date,gender,people_admin,pct_total
 2021-01-20,Unknown/Missing,1999,0.01
 2021-01-20,Other,5,0.0
 2021-01-20,Male,61881,0.308
+2021-01-21,Unknown/Missing,1999,0.01
 2021-01-21,Female,138853,0.681
 2021-01-21,Male,62982,0.309
 2021-01-21,Other,5,0.0
-2021-01-21,Unknown/Missing,1999,0.01
+2021-01-22,Female,145857,0.681
+2021-01-22,Male,66075,0.309
+2021-01-22,Other,5,0.0
+2021-01-22,Unknown/Missing,2113,0.01
