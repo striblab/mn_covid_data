@@ -192,6 +192,7 @@ A statewide look at vaccine administration and distribution. Raw data available 
 |admin_moderna|integer|Total doses of Pfizer vaccine injected statewide.|
 |admin_unknown|integer|Currently number of doses of unknown vaccine type injected statewide.|
 |admin_people_total|integer|Total number of people who have received at least one dose of any COVID vaccine.|
+|admin_people_completed_total|integer|Total number of people who have received both doses of any COVID vaccine.|
 |shipped_pfizer_total|integer|Total doses of Pfizer vaccine that have been shipped to providers in all programs, except federal facilities that are not required to report to Minnesota officials.|
 |shipped_moderna_total|integer|Total doses of Moderna vaccine that have been shipped to providers in all programs, except federal facilities that are not required to report to Minnesota officials.|
 |shipped_pfizer_mn_providers|integer|"Cumulative count of COVID-19 vaccine doses recorded as shipped to Minnesota providers in the Centers for Disease Control and Prevention’s (CDC) Vaccine Tracking System (VTrckS) since Dec. 13, 2020." Does not include pharmacy doses below or federal facilities that are not required to report to Minnesota officials.|
@@ -205,6 +206,7 @@ A statewide look at vaccine administration and distribution. Raw data available 
 |admin_moderna_daily|integer|Daily change in total doses of Moderna vaccine injected statewide. Includes data from previous days that was not previously reported.|
 |admin_unknown_daily|integer|Daily change in total doses of unknown vaccine injected statewide.|
 |admin_people_total_daily|integer|Daily change in the total number of people statewide who have received at least one vaccine dose.|
+|admin_people_completed_total_daily|integer|Daily change in the total number of people statewide who have received both doses of any vaccine.|
 |shipped_combined_daily|integer|Daily change of shipped_combined. Includes data from previous days that was not previously reported. |
 |shipped_pfizer_daily|integer|Same as above, for Pfizer doses only.|
 |shipped_moderna_daily|integer|Same as above, for Moderna doses only.|
@@ -213,11 +215,13 @@ A statewide look at vaccine administration and distribution. Raw data available 
 |admin_moderna_weekly|integer|Change in admin_moderna in last 7 days.|
 |admin_unknown_weekly|integer|Change in admin_unknown in last 7 days.|
 |admin_people_total_weekly|integer|Change in admin_people_total in last 7 days.|
+|admin_people_completed_total_weekly|integer|Change in admin_people_completed_total in last 7 days.|
 |shipped_combined_weekly|integer|Change in shipped_combined in last 7 days.|
 |shipped_pfizer_weekly|integer|Change in shipped_pfizer_total in last 7 days.|
 |shipped_moderna_weekly|integer|Change in shipped_moderna_total in last 7 days.|
 |admin_doses_total_per_cap|float|Doses administered per Minnesota resident. Population: [2019 MN Population Center estimate](https://mn.gov/admin/demography/data-by-topic/population-data/our-estimates/)|
 |admin_people_total_per_cap|float|Percent of Minnesota residents who have received at least one dose of any vaccine. Population: [2019 MN Population Center estimate](https://mn.gov/admin/demography/data-by-topic/population-data/our-estimates/)|
+|admin_people_completed_total_per_cap|float|Percent of Minnesota residents who have received both doses of any vaccine. Population: [2019 MN Population Center estimate](https://mn.gov/admin/demography/data-by-topic/population-data/our-estimates/)|
 |pct_of_shipped_admin_pct|float|Percent of shipped_combined that has been injected.|
 |shipped_people_covered_pct|float|Total doses shipped per Minnesota resident, divided by 2 to account for full vaccine series. Population: [2019 MN Population Center estimate](https://mn.gov/admin/demography/data-by-topic/population-data/our-estimates/)|
 
@@ -230,9 +234,11 @@ County-by-county vaccine administration. Raw data available on the state's [Vacc
 |county|string|County name|
 |data_date|date|Date reported publicly. YYYY-MM-DD|
 |people_admin_total|integer|Total number of people who have received at least one dose of any COVID vaccine.|
+|people_admin_completed_total|integer|Total number of people who have received both doses of any COVID vaccine.|
 |full_fips|string|U.S. Census FIPS code for this county, including state code.|
 |pop_2019|integer|Estimated 2019 population. Population: [2019 MN Population Center estimate](https://mn.gov/admin/demography/data-by-topic/population-data/our-estimates/)|
 |people_pct_pop|float|Percent of county residents who have received at least one dose of any vaccine.|
+|people_completed_pct_pop|float|Percent of county residents who have received both doses of any vaccine.|
 
 #### mn_vaccine_gender_timeseries.csv
 
@@ -243,8 +249,9 @@ Gender breakdown of vaccine administration.
 |data_date|date|Date reported publicly. YYYY-MM-DD|
 |gender|string|Options: Female, Male, Other, Unknown/Missing|
 |people_admin|integer|Total number of people who have received at least one dose of any COVID vaccine.|
-|pct_total|float|Percent of total people_admin this gender accounts for.|
-
+|people_admin_completed|integer|Total number of people who have received both doses of any COVID vaccine.|
+|one_dose_pct_total|float|Percent of total people_admin this gender accounts for.|
+|completed_pct_total|float|Percent of total people_admin_completed this gender accounts for.|
 
 #### mn_zip_timeseries.csv
 
