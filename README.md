@@ -45,12 +45,14 @@ A "tall" timeseries of each county's positive tests and deaths by a given date. 
 |---|---|---|
 |date|date|YYYY-MM-DD|
 |county|string|County name|
+|fips|string|County FIPS, including state code (27)|
 |daily_cases|integer|Number of new confirmed cases reported on this date|
 |daily_cases_per_1k|float|New confirmed cases per 1,000 county residents on this date|
 |cumulative_cases|integer|Number of cumulative positive COVID-19 tests by this date|
-|cases_per_1k|total|Number of total confirmed cases per 1,000 county residents|
+|cases_per_1k|total|Number of total confirmed cases per 1,000 county residents (2019 ACS 5-year estimate)|
 |daily_deaths|integer|Number of new COVID-19 deaths reported on this date|
 |cumulative_deaths|integer|Number of cumulative COVID-19 deaths by this date|
+|deaths_per_1k|total|Number of total deaths per 1,000 county residents (2019 ACS 5-year estimate)|
 |cases_rolling|float|7-day rolling average (mean) of daily_cases|
 |deaths_rolling|float|7-day rolling average (mean) of daily_deaths|
 |cases_weekly_chg|integer|Change in total cases from 7 days before|
@@ -219,11 +221,11 @@ A statewide look at vaccine administration and distribution. Raw data available 
 |shipped_combined_weekly|integer|Change in shipped_combined in last 7 days.|
 |shipped_pfizer_weekly|integer|Change in shipped_pfizer_total in last 7 days.|
 |shipped_moderna_weekly|integer|Change in shipped_moderna_total in last 7 days.|
-|admin_doses_total_per_cap|float|Doses administered per Minnesota resident. Population: [2019 MN Population Center estimate](https://mn.gov/admin/demography/data-by-topic/population-data/our-estimates/)|
-|admin_people_total_per_cap|float|Percent of Minnesota residents who have received at least one dose of any vaccine. Population: [2019 MN Population Center estimate](https://mn.gov/admin/demography/data-by-topic/population-data/our-estimates/)|
-|admin_people_completed_total_per_cap|float|Percent of Minnesota residents who have received both doses of any vaccine. Population: [2019 MN Population Center estimate](https://mn.gov/admin/demography/data-by-topic/population-data/our-estimates/)|
+|admin_doses_total_per_cap|float|Doses administered per Minnesota resident. Population: [ACS 2019 5-year estimate](https://censusreporter.org/data/table/?table=B01003&geo_ids=04000US27,050|04000US27&primary_geo_id=04000US27)|
+|admin_people_total_per_cap|float|Percent of Minnesota residents who have received at least one dose of any vaccine. Population: [ACS 2019 5-year estimate](https://censusreporter.org/data/table/?table=B01003&geo_ids=04000US27,050|04000US27&primary_geo_id=04000US27)|
+|admin_people_completed_total_per_cap|float|Percent of Minnesota residents who have received both doses of any vaccine. Population: [ACS 2019 5-year estimate](https://censusreporter.org/data/table/?table=B01003&geo_ids=04000US27,050|04000US27&primary_geo_id=04000US27)|
 |pct_of_shipped_admin_pct|float|Percent of shipped_combined that has been injected.|
-|shipped_people_covered_pct|float|Total doses shipped per Minnesota resident, divided by 2 to account for full vaccine series. Population: [2019 MN Population Center estimate](https://mn.gov/admin/demography/data-by-topic/population-data/our-estimates/)|
+|shipped_people_covered_pct|float|Total doses shipped per Minnesota resident, divided by 2 to account for full vaccine series. Population: [ACS 2019 5-year estimate](https://censusreporter.org/data/table/?table=B01003&geo_ids=04000US27,050|04000US27&primary_geo_id=04000US27)|
 
 #### mn_vaccine_county_timeseries.csv
 
@@ -236,7 +238,7 @@ County-by-county vaccine administration. Raw data available on the state's [Vacc
 |people_admin_total|integer|Total number of people who have received at least one dose of any COVID vaccine.|
 |people_admin_completed_total|integer|Total number of people who have received both doses of any COVID vaccine.|
 |full_fips|string|U.S. Census FIPS code for this county, including state code.|
-|pop_2019|integer|Estimated 2019 population. Population: [2019 MN Population Center estimate](https://mn.gov/admin/demography/data-by-topic/population-data/our-estimates/)|
+|pop_2019|integer|Estimated 2019 population. Population: [ACS 2019 5-year estimate](https://censusreporter.org/data/table/?table=B01003&geo_ids=04000US27,050|04000US27&primary_geo_id=04000US27)|
 |people_pct_pop|float|Percent of county residents who have received at least one dose of any vaccine.|
 |people_completed_pct_pop|float|Percent of county residents who have received both doses of any vaccine.|
 
@@ -264,13 +266,13 @@ A zip-level, weekly count of positive COVID-19 tests, compiled from data sent to
 |cases_total|integer|Number of cumulative positive COVID-19 tests. -1 indicates that between 1 and 5 cases have been confirmed here. (MDH redacts the specific number of cases if it is between 1 and 5, but does report 0s for ZCTAs with no confirmed cases.)|
 |cases_per_1k|float|Number of cumulative positive COVID-19 tests per 1,000 people in population|
 |cases_weekly_change|float|Change in cases_total since last data update. Not calculated unless both current week and previous week have cases_total values that are not between 1 and 5 cases. (See note about redactions above.)|
-|pop_total|integer|2018 ACS 5-year population estimate for this ZCTA|
+|pop_total|integer|2019 ACS 5-year population estimate for this ZCTA|
 |pct_nonwhite|float|Percentage of pop_total that has a race other than white and did not report Hispanic ethnicity, according to 2018 ACS 5-year estimate|
 |pct_black|float|Percentage of pop total that is Black, according to 2018 ACS 5-year estimate|
 |pct_latinx|float|Percentage of pop total that has Hispanic ethnicity, regardless of race, except for "two or more races," according to 2018 ACS 5-year estimate|
 |pct_asian|float|Percentage of pop total that is Asian, according to 2018 ACS 5-year estimate|
-|pct_nativeamer|float|Percentage of pop total that is Native American, according to 2018 ACS 5-year estimate|
-|largest_minority|string|The nonwhite group listed above with the highest share of the ZCTA's population, according to 2018 ACS 5-year estimate|
+|pct_nativeamer|float|Percentage of pop total that is Native American, according to 2019 ACS 5-year estimate|
+|largest_minority|string|The nonwhite group listed above with the highest share of the ZCTA's population, according to 2019 ACS 5-year estimate|
 |bool_metro|boolean|Whether ZCTA touches one of the 7 counties included in the Twin Cities metro area, according to the [Metropolitan Council](https://metrocouncil.org).|
 
 ### Deprecated files
