@@ -213,6 +213,14 @@ A statewide look at vaccine administration and distribution. Raw data available 
 |shipped_pfizer_daily|integer|Same as above, for Pfizer doses only.|
 |shipped_moderna_daily|integer|Same as above, for Moderna doses only.|
 |admin_total_weekly|integer|Change in admin_total in last 7 days.|
+|admin_total_daily_rolling|integer|7-day rolling average (mean) of admin_total_daily.|
+|admin_pfizer_daily_rolling|integer|7-day rolling average (mean) of admin_pfizer_daily.|
+|admin_moderna_daily_rolling|integer|7-day rolling average (mean) of admin_moderna_daily.|
+|admin_people_total_daily_rolling|integer|7-day rolling average (mean) of admin_people_total_dail.y.|
+|admin_people_completed_total_daily_rolling|integer|7-day rolling average (mean) of admin_people_completed_total_daily.|
+|shipped_combined_daily_rolling|integer|7-day rolling average (mean) of shipped_combined_daily.|
+|shipped_pfizer_daily_rolling|integer|7-day rolling average (mean) of shipped_pfizer_daily.|
+|shipped_moderna_daily_rolling|integer|7-day rolling average (mean) of shipped_moderna_daily.|
 |admin_pfizer_weekly|integer|Change in admin_pfizer in last 7 days.|
 |admin_moderna_weekly|integer|Change in admin_moderna in last 7 days.|
 |admin_unknown_weekly|integer|Change in admin_unknown in last 7 days.|
